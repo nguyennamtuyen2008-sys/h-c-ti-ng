@@ -7,8 +7,6 @@ let wrong = 0;
 let total = 0;
 
 // DOM
-const card = document.getElementById("card");
-
 const lesson = document.getElementById("lesson");
 const word = document.getElementById("word");
 
@@ -20,6 +18,8 @@ const answer = document.getElementById("answer");
 
 const result = document.getElementById("result");
 
+const card = document.getElementById("card");
+
 const lessonSelect = document.getElementById("lessonSelect");
 
 const correctText = document.getElementById("correct");
@@ -29,9 +29,23 @@ const remainText = document.getElementById("remain");
 const progressBar = document.getElementById("progressBar");
 const progressText = document.getElementById("progressText");
 
-// Đọc JSON
-fetch("vocab.json")
-.then(res=>res.json())
+
+// =====================
+// Đọc vocab.json
+// =====================
+
+fetch("./vocab.json")
+.then(response=>{
+
+    if(!response.ok){
+
+        throw new Error("Không đọc được vocab.json");
+
+    }
+
+    return response.json();
+
+})
 .then(data=>{
 
     vocab=data;
@@ -43,14 +57,17 @@ fetch("vocab.json")
 })
 .catch(err=>{
 
-    alert("Không đọc được vocab.json");
-
     console.error(err);
+
+    word.textContent="Lỗi tải dữ liệu";
 
 });
 
 
+// =====================
 // Bỏ dấu pinyin
+// =====================
+
 function removeTone(str){
 
     return str
@@ -64,7 +81,27 @@ function removeTone(str){
 }
 
 
+// =====================
+// Xáo trộn
+// =====================
+
+function shuffle(array){
+
+    for(let i=array.length-1;i>0;i--){
+
+        let j=Math.floor(Math.random()*(i+1));
+
+        [array[i],array[j]]=[array[j],array[i]];
+
+    }
+
+}
+
+
+// =====================
 // Tạo danh sách
+// =====================
+
 function createWordList(){
 
     if(lessonSelect.value==="all"){
@@ -86,26 +123,16 @@ function createWordList(){
 }
 
 
-// Xáo trộn
-function shuffle(arr){
-
-    for(let i=arr.length-1;i>0;i--){
-
-        let j=Math.floor(Math.random()*(i+1));
-
-        [arr[i],arr[j]]=[arr[j],arr[i]];
-
-    }
-
-}
-
-
+// =====================
 // Thanh tiến độ
+// =====================
+
 function updateProgress(){
 
     remainText.textContent=remainWords.length;
 
-    progressText.textContent=(total-remainWords.length)+" / "+total+" từ";
+    progressText.textContent=
+    (total-remainWords.length)+" / "+total+" từ";
 
     let percent=0;
 
@@ -120,12 +147,15 @@ function updateProgress(){
 }
 
 
+// =====================
 // Hiện từ mới
+// =====================
+
 function nextWord(){
 
     if(remainWords.length===0){
 
-        alert("🎉 Bạn đã học hết từ của bài này!");
+        alert("🎉 Bạn đã học hết!");
 
         createWordList();
 
@@ -133,22 +163,33 @@ function nextWord(){
 
     current=remainWords.shift();
 
-    updateProgress();
+    if(!current){
 
-    card.classList.remove("flip");
+        word.textContent="Không có dữ liệu";
 
-    result.textContent="";
+        return;
 
-    answer.value="";
+    }
 
     lesson.textContent=current.lesson;
 
     word.textContent=current.hanzi;
 
+    answer.value="";
+
+    result.textContent="";
+
+    card.classList.remove("flip");
+
+    updateProgress();
+
 }
 
 
+// =====================
 // Kiểm tra
+// =====================
+
 function checkAnswer(){
 
     if(answer.value.trim()===""){
@@ -159,19 +200,21 @@ function checkAnswer(){
 
     }
 
-    let user=answer.value.trim();
+    let input=removeTone(answer.value);
+
+    let hanzi=current.hanzi;
+
+    let pinyin=removeTone(current.pinyin);
 
     let ok=false;
 
-    // Hán
-    if(user===current.hanzi){
+    if(answer.value.trim()===hanzi){
 
         ok=true;
 
     }
 
-    // Pinyin
-    if(removeTone(user)===removeTone(current.pinyin)){
+    if(input===pinyin){
 
         ok=true;
 
@@ -201,19 +244,26 @@ function checkAnswer(){
 
     backWord.textContent=current.hanzi;
 
-    backPinyin.textContent=current.pinyin;
+    backPinyin.textContent="🔊 "+current.pinyin;
 
-    backMeaning.textContent=current.meaning;
+    backMeaning.textContent="🇻🇳 "+current.meaning;
 
     card.classList.add("flip");
 
 }
 
 
+// =====================
 // Sự kiện
-document.getElementById("checkBtn").onclick=checkAnswer;
+// =====================
 
-document.getElementById("nextBtn").onclick=nextWord;
+document
+.getElementById("checkBtn")
+.onclick=checkAnswer;
+
+document
+.getElementById("nextBtn")
+.onclick=nextWord;
 
 lessonSelect.onchange=function(){
 
