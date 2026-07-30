@@ -6,7 +6,7 @@
 }
 
 body{
-    background:linear-gradient(135deg,#60a5fa,#2563eb);
+    background:linear-gradient(135deg,#3b82f6,#2563eb);
     min-height:100vh;
     display:flex;
     justify-content:center;
@@ -17,22 +17,21 @@ body{
 .container{
     width:100%;
     max-width:420px;
-    background:white;
+    background:#fff;
     border-radius:25px;
     padding:25px;
-    box-shadow:0 15px 35px rgba(0,0,0,.25);
+    box-shadow:0 15px 40px rgba(0,0,0,.2);
 }
 
 h1{
     text-align:center;
     color:#2563eb;
-    font-size:28px;
+    margin-bottom:8px;
 }
 
 .subtitle{
     text-align:center;
     color:#666;
-    margin-top:8px;
     margin-bottom:20px;
 }
 
@@ -41,9 +40,9 @@ h1{
     padding:12px;
     border-radius:12px;
     border:2px solid #2563eb;
-    font-size:17px;
-    margin-bottom:20px;
+    font-size:16px;
     outline:none;
+    margin-bottom:20px;
 }
 
 .progressBox{
@@ -54,7 +53,7 @@ h1{
     width:100%;
     height:12px;
     background:#ddd;
-    border-radius:30px;
+    border-radius:20px;
     overflow:hidden;
 }
 
@@ -68,16 +67,15 @@ h1{
 #progressText{
     text-align:center;
     margin-top:8px;
-    color:#555;
-    font-size:15px;
+    color:#666;
 }
 
 .card{
     width:100%;
-    height:240px;
+    height:250px;
     position:relative;
     transform-style:preserve-3d;
-    transition:.7s;
+    transition:.6s;
     margin-bottom:20px;
 }
 
@@ -98,7 +96,6 @@ h1{
     justify-content:center;
     align-items:center;
     backface-visibility:hidden;
-    padding:20px;
 }
 
 .back{
@@ -110,44 +107,45 @@ h1{
     top:15px;
     left:15px;
     background:#2563eb;
-    color:white;
+    color:#fff;
     padding:6px 12px;
-    border-radius:30px;
+    border-radius:20px;
     font-size:14px;
 }
 
 .word{
-    font-size:60px;
+    font-size:64px;
     font-weight:bold;
     color:#111827;
-    text-align:center;
 }
 
 .back h2{
-    font-size:55px;
+    font-size:52px;
     color:#111827;
 }
 
 .back h3{
+    margin-top:10px;
     color:#2563eb;
-    margin:10px 0;
     font-size:24px;
 }
 
 .back p{
+    margin-top:12px;
     font-size:22px;
-    color:#555;
+    color:#444;
     text-align:center;
+    padding:0 15px;
 }
 
 #answer{
     width:100%;
-    padding:15px;
+    padding:14px;
+    font-size:18px;
     border-radius:12px;
     border:2px solid #2563eb;
-    font-size:18px;
     outline:none;
-    margin-bottom:18px;
+    margin-bottom:15px;
 }
 
 .buttonGroup{
@@ -157,10 +155,10 @@ h1{
 
 button{
     flex:1;
-    padding:14px;
     border:none;
     border-radius:12px;
-    font-size:17px;
+    padding:14px;
+    font-size:16px;
     font-weight:bold;
     cursor:pointer;
     transition:.2s;
@@ -182,10 +180,10 @@ button:hover{
 
 #result{
     text-align:center;
+    min-height:30px;
+    margin:20px 0;
     font-size:22px;
     font-weight:bold;
-    margin:20px 0;
-    min-height:30px;
 }
 
 .score{
@@ -206,14 +204,14 @@ button:hover{
     margin-top:8px;
 }
 
-@media(max-width:430px){
+@media(max-width:450px){
 
 .container{
     padding:18px;
 }
 
 .word{
-    font-size:48px;
+    font-size:50px;
 }
 
 .back h2{
