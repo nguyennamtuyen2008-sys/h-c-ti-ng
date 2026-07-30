@@ -2,136 +2,140 @@
 <html lang="vi">
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Học từ vựng tiếng Trung</title>
 
-<meta charset="UTF-8">
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Học từ vựng tiếng Trung</title>
-
-<link rel="stylesheet" href="style.css">
-
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
 <div class="container">
 
-<h1>📚 Học từ vựng tiếng Trung</h1>
+    <h1>📚 Học từ vựng tiếng Trung</h1>
 
-<p class="subtitle">
-Giáo trình Đương Đại (Bài 1 → 12)
-</p>
+    <p class="subtitle">
+        Giáo trình Đương Đại (Bài 1 → Bài 12)
+    </p>
 
-<select id="lessonSelect">
+    <select id="lessonSelect">
 
-<option value="all">📖 Học tất cả</option>
+        <option value="all">📖 Tất cả bài</option>
 
-<option value="1">Bài 1</option>
-<option value="2">Bài 2</option>
-<option value="3">Bài 3</option>
-<option value="4">Bài 4</option>
-<option value="5">Bài 5</option>
-<option value="6">Bài 6</option>
-<option value="7">Bài 7</option>
-<option value="8">Bài 8</option>
-<option value="9">Bài 9</option>
-<option value="10">Bài 10</option>
-<option value="11">Bài 11</option>
-<option value="12">Bài 12</option>
+        <option value="1">Bài 1</option>
+        <option value="2">Bài 2</option>
+        <option value="3">Bài 3</option>
+        <option value="4">Bài 4</option>
+        <option value="5">Bài 5</option>
+        <option value="6">Bài 6</option>
+        <option value="7">Bài 7</option>
+        <option value="8">Bài 8</option>
+        <option value="9">Bài 9</option>
+        <option value="10">Bài 10</option>
+        <option value="11">Bài 11</option>
+        <option value="12">Bài 12</option>
 
-</select>
+    </select>
 
-<div class="progressBox">
+    <!-- Thanh tiến độ -->
 
-<div class="progress">
+    <div class="progressBox">
 
-<div id="progressBar"></div>
+        <div class="progress">
 
-</div>
+            <div id="progressBar"></div>
 
-<p id="progressText">
-0 / 0 từ
-</p>
+        </div>
 
-</div>
+        <div id="progressText">0 / 0 từ</div>
 
-<div class="card" id="card">
+    </div>
 
-<div class="front">
+    <!-- Thẻ từ -->
 
-<div id="lesson" class="lesson"></div>
+    <div class="card" id="card">
 
-<div id="word" class="word">
-Đang tải...
-</div>
+        <div class="front">
 
-</div>
+            <div class="lesson" id="lesson"></div>
 
-<div class="back">
+            <div class="word" id="word">
+                Đang tải...
+            </div>
 
-<h2 id="backWord"></h2>
+        </div>
 
-<h3 id="backPinyin"></h3>
+        <div class="back">
 
-<p id="backMeaning"></p>
+            <h2 id="backWord"></h2>
 
-</div>
+            <h3 id="backPinyin"></h3>
 
-</div>
+            <p id="backMeaning"></p>
 
-<input
-id="answer"
-type="text"
-placeholder="Nhập chữ Hán hoặc Pinyin">
+        </div>
 
-<div class="buttonGroup">
+    </div>
 
-<button id="checkBtn">
-✅ Kiểm tra
-</button>
+    <!-- Ô nhập -->
 
-<button id="nextBtn">
-➡️ Từ tiếp theo
-</button>
+    <input
+        type="text"
+        id="answer"
+        placeholder="Nhập chữ Hán hoặc Pinyin">
 
-</div>
+    <!-- Nút -->
 
-<div id="result"></div>
+    <div class="buttonGroup">
 
-<div class="score">
+        <button id="checkBtn">
 
-<div class="box">
+            ✅ Kiểm tra
 
-Đúng
+        </button>
 
-<h2 id="correct">
-0
-</h2>
+        <button id="nextBtn">
 
-</div>
+            ➡️ Từ tiếp theo
 
-<div class="box">
+        </button>
 
-Sai
+    </div>
 
-<h2 id="wrong">
-0
-</h2>
+    <!-- Kết quả -->
 
-</div>
+    <div id="result"></div>
 
-<div class="box">
+    <!-- Điểm -->
 
-Còn lại
+    <div class="score">
 
-<h2 id="remain">
-0
-</h2>
+        <div class="box">
 
-</div>
+            <div>✅ Đúng</div>
 
-</div>
+            <h2 id="correct">0</h2>
+
+        </div>
+
+        <div class="box">
+
+            <div>❌ Sai</div>
+
+            <h2 id="wrong">0</h2>
+
+        </div>
+
+        <div class="box">
+
+            <div>📖 Còn lại</div>
+
+            <h2 id="remain">0</h2>
+
+        </div>
+
+    </div>
 
 </div>
 
