@@ -142,7 +142,27 @@
 </div>
 
 <script src="script.js"></script>
+<!-- Popup thông báo -->
+<div id="resultPopup" class="popup-overlay">
+  <div class="popup-box">
+    <div id="popupIcon" class="popup-icon">❌</div>
 
+    <h2 id="popupTitle">Sai rồi bạn ơi!</h2>
+
+    <div class="popup-answer">
+      <div id="popupHanzi" class="hanzi"></div>
+      <div id="popupPinyin" class="pinyin"></div>
+      <div id="popupMeaning" class="meaning"></div>
+    </div>
+
+    <p id="popupMessage">
+      💪 Đừng nản nhé, học thêm một chút là nhớ ngay!
+    </p>
+
+    <button onclick="closePopup()">Tiếp tục</button>
+  </div>
+</div>
+    
 </body>
 
 </html>
