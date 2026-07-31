@@ -1,456 +1,829 @@
 [
-  // --- BÀI 1 ---
-  { "lesson": "Bài 1", "hanzi": "陳月美", "pinyin": "Chén Yuè Měi", "meaning": "Trần Nguyệt Mỹ" },
-  { "lesson": "Bài 1", "hanzi": "李明華", "pinyin": "Lǐ Míng huá", "meaning": "Lý Minh Hoa" },
-  { "lesson": "Bài 1", "hanzi": "王開文", "pinyin": "Wáng Kāi wén", "meaning": "Vương Khai Văn" },
-  { "lesson": "Bài 1", "hanzi": "你", "pinyin": "nǐ", "meaning": "Bạn" },
-  { "lesson": "Bài 1", "hanzi": "來", "pinyin": "lái", "meaning": "Đến" },
-  { "lesson": "Bài 1", "hanzi": "是", "pinyin": "shì", "meaning": "Là" },
-  { "lesson": "Bài 1", "hanzi": "小姐", "pinyin": "xiǎo jiě", "meaning": "Cô, tiểu thư" },
-  { "lesson": "Bài 1", "hanzi": "嗎", "pinyin": "ma", "meaning": "Không? (trợ từ nghi vấn)" },
-  { "lesson": "Bài 1", "hanzi": "接", "pinyin": "jiē", "meaning": "Đón" },
-  { "lesson": "Bài 1", "hanzi": "我們", "pinyin": "wǒ men", "meaning": "Chúng tôi, chúng ta" },
-  { "lesson": "Bài 1", "hanzi": "我", "pinyin": "wǒ", "meaning": "Tôi" },
-  { "lesson": "Bài 1", "hanzi": "這", "pinyin": "zhè", "meaning": "Đây, này" },
-  { "lesson": "Bài 1", "hanzi": "先生", "pinyin": "xiān shēng", "meaning": "Tiên sinh, ông" },
-  { "lesson": "Bài 1", "hanzi": "好", "pinyin": "hǎo", "meaning": "Khỏe, tốt" },
-  { "lesson": "Bài 1", "hanzi": "姓", "pinyin": "xìng", "meaning": "Họ" },
-  { "lesson": "Bài 1", "hanzi": "叫", "pinyin": "jiào", "meaning": "Tên là, gọi là" },
-  { "lesson": "Bài 1", "hanzi": "你們", "pinyin": "nǐ men", "meaning": "Các bạn" },
-  { "lesson": "Bài 1", "hanzi": "臺灣", "pinyin": "Tái wān", "meaning": "Đài Loan" },
-  { "lesson": "Bài 1", "hanzi": "歡迎", "pinyin": "huān yíng", "meaning": "Hoan nghênh, chào mừng" },
-  { "lesson": "Bài 1", "hanzi": "請問", "pinyin": "qǐng wèn", "meaning": "Xin hỏi" },
-  { "lesson": "Bài 1", "hanzi": "是的", "pinyin": "shì de", "meaning": "Vâng, phải" },
-  { "lesson": "Bài 1", "hanzi": "謝謝", "pinyin": "xiè xiè", "meaning": "Cảm ơn" },
-  { "lesson": "Bài 1", "hanzi": "不客氣", "pinyin": "bù kè qi", "meaning": "Không khách khí, không có chi" },
-  { "lesson": "Bài 1", "hanzi": "你好", "pinyin": "nǐ hǎo", "meaning": "Xin chào" },
-
-  // --- BÀI 2 ---
-  { "lesson": "Bài 2", "hanzi": "張怡君", "pinyin": "Zhāng Yí Jūn", "meaning": "Trương Di Quân" },
-  { "lesson": "Bài 2", "hanzi": "馬安同", "pinyin": "Mǎ Ān Tóng", "meaning": "Mã An Đồng" },
-  { "lesson": "Bài 2", "hanzi": "的", "pinyin": "de", "meaning": "Của" },
-  { "lesson": "Bài 2", "hanzi": "家人", "pinyin": "jiā rén", "meaning": "Người nhà, gia đình" },
-  { "lesson": "Bài 2", "hanzi": "家", "pinyin": "jiā", "meaning": "Nhà, gia đình" },
-  { "lesson": "Bài 2", "hanzi": "漂亮", "pinyin": "piào liang", "meaning": "Xinh đẹp, đẹp" },
-  { "lesson": "Bài 2", "hanzi": "房子", "pinyin": "fáng zi", "meaning": "Ngôi nhà, căn nhà" },
-  { "lesson": "Bài 2", "hanzi": "坐", "pinyin": "zuò", "meaning": "Ngồi" },
-  { "lesson": "Bài 2", "hanzi": "好", "pinyin": "hǎo", "meaning": "Tốt, được" },
-  { "lesson": "Bài 2", "hanzi": "有", "pinyin": "yǒu", "meaning": "Có" },
-  { "lesson": "Bài 2", "hanzi": "多", "pinyin": "duō", "meaning": "Nhiều" },
-  { "lesson": "Bài 2", "hanzi": "照片", "pinyin": "zhào piàn", "meaning": "Bức ảnh" },
-  { "lesson": "Bài 2", "hanzi": "都", "pinyin": "dōu", "meaning": "Đều" },
-  { "lesson": "Bài 2", "hanzi": "照相", "pinyin": "zhào xiàng", "meaning": "Chụp ảnh" },
-  { "lesson": "Bài 2", "hanzi": "張", "pinyin": "zhāng", "meaning": "Tấm, bức (lượng từ)" },
-  { "lesson": "Bài 2", "hanzi": "好看", "pinyin": "hǎo kàn", "meaning": "Đẹp, dễ nhìn, hay" },
-  { "lesson": "Bài 2", "hanzi": "誰", "pinyin": "shéi", "meaning": "Ai" },
-  { "lesson": "Bài 2", "hanzi": "姐姐", "pinyin": "jiě jie", "meaning": "Chị gái" },
-  { "lesson": "Bài 2", "hanzi": "妹妹", "pinyin": "mèi mei", "meaning": "Em gái" },
-  { "lesson": "Bài 2", "hanzi": "爸爸", "pinyin": "bà ba", "meaning": "Bố, ba" },
-  { "lesson": "Bài 2", "hanzi": "媽媽", "pinyin": "mā ma", "meaning": "Mẹ" },
-  { "lesson": "Bài 2", "hanzi": "請進", "pinyin": "qǐng jìn", "meaning": "Mời vào" },
-  { "lesson": "Bài 2", "hanzi": "田中誠一", "pinyin": "Tián zhōng Chéng yī", "meaning": "Điền Trung Thành Nhất (Tanaka Seichi)" },
-  { "lesson": "Bài 2", "hanzi": "伯母", "pinyin": "bó mǔ", "meaning": "Bác gái, thím" },
-  { "lesson": "Bài 2", "hanzi": "您", "pinyin": "nín", "meaning": "Ngài, ông/bà (kính ngữ)" },
-  { "lesson": "Bài 2", "hanzi": "名字", "pinyin": "míng zi", "meaning": "Tên" },
-  { "lesson": "Bài 2", "hanzi": "書", "pinyin": "shū", "meaning": "Sách" },
-  { "lesson": "Bài 2", "hanzi": "哥哥", "pinyin": "gē ge", "meaning": "Anh trai" },
-  { "lesson": "Bài 2", "hanzi": "老師", "pinyin": "lǎo shī", "meaning": "Giáo viên, thầy/cô giáo" },
-  { "lesson": "Bài 2", "hanzi": "看書", "pinyin": "kàn shū", "meaning": "Đọc sách" },
-  { "lesson": "Bài 2", "hanzi": "幾", "pinyin": "jǐ", "meaning": "Mấy" },
-  { "lesson": "Bài 2", "hanzi": "個", "pinyin": "gè", "meaning": "Cái, người (lượng từ)" },
-  { "lesson": "Bài 2", "hanzi": "沒", "pinyin": "méi", "meaning": "Không" },
-  { "lesson": "Bài 2", "hanzi": "兄弟", "pinyin": "xiōng dì", "meaning": "Anh em" },
-  { "lesson": "Bài 2", "hanzi": "姐妹", "pinyin": "jiě mèi", "meaning": "Chị em" },
-  { "lesson": "Bài 2", "hanzi": "五", "pinyin": "wǔ", "meaning": "Năm" },
-  { "lesson": "Bài 2", "hanzi": "兩", "pinyin": "liǎng", "meaning": "Hai" },
-
-  // --- BÀI 3 ---
-  { "lesson": "Bài 3", "hanzi": "週末", "pinyin": "zhōu mò", "meaning": "Cuối tuần" },
-  { "lesson": "Bài 3", "hanzi": "聽", "pinyin": "tīng", "meaning": "Nghe" },
-  { "lesson": "Bài 3", "hanzi": "音樂", "pinyin": "yīn yuè", "meaning": "Âm nhạc" },
-  { "lesson": "Bài 3", "hanzi": "運動", "pinyin": "yùn dòng", "meaning": "Thể thao, vận động" },
-  { "lesson": "Bài 3", "hanzi": "打", "pinyin": "dǎ", "meaning": "Đánh, chơi" },
-  { "lesson": "Bài 3", "hanzi": "網球", "pinyin": "wǎng qiú", "meaning": "Quần vợt" },
-  { "lesson": "Bài 3", "hanzi": "棒球", "pinyin": "bàng qiú", "meaning": "Bóng chày" },
-  { "lesson": "Bài 3", "hanzi": "和", "pinyin": "hé", "meaning": "Và, cùng" },
-  { "lesson": "Bài 3", "hanzi": "游泳", "pinyin": "yóu yǒng", "meaning": "Bơi lội" },
-  { "lesson": "Bài 3", "hanzi": "常", "pinyin": "cháng", "meaning": "Thường, thường xuyên" },
-  { "lesson": "Bài 3", "hanzi": "籃球", "pinyin": "lán qiú", "meaning": "Bóng rổ" },
-  { "lesson": "Bài 3", "hanzi": "也", "pinyin": "yě", "meaning": "Cũng" },
-  { "lesson": "Bài 3", "hanzi": "踢", "pinyin": "tī", "meaning": "Đá" },
-  { "lesson": "Bài 3", "hanzi": "足球", "pinyin": "zú qiú", "meaning": "Bóng đá" },
-  { "lesson": "Bài 3", "hanzi": "覺得", "pinyin": "jué de", "meaning": "Cảm thấy" },
-  { "lesson": "Bài 3", "hanzi": "好玩", "pinyin": "hǎo wán", "meaning": "Vui, thú vị" },
-  { "lesson": "Bài 3", "hanzi": "明天", "pinyin": "míng tiān", "meaning": "Ngày mai" },
-  { "lesson": "Bài 3", "hanzi": "早上", "pinyin": "zǎo shang", "meaning": "Buổi sáng" },
-  { "lesson": "Bài 3", "hanzi": "去", "pinyin": "qù", "meaning": "Đi" },
-  { "lesson": "Bài 3", "hanzi": "怎麼樣", "pinyin": "zěn me yàng", "meaning": "Thế nào" },
-  { "lesson": "Bài 3", "hanzi": "啊", "pinyin": "a", "meaning": "Trợ từ ngữ khí" },
-  { "lesson": "Bài 3", "hanzi": "做什麼", "pinyin": "zuò shén me", "meaning": "Làm gì" },
-  { "lesson": "Bài 3", "hanzi": "好啊", "pinyin": "hǎo a", "meaning": "Được chứ, hay quá" },
-  { "lesson": "Bài 3", "hanzi": "白如玉", "pinyin": "Bái Rú Yù", "meaning": "Bạch Như Ngọc" },
-  { "lesson": "Bài 3", "hanzi": "今天", "pinyin": "jīn tiān", "meaning": "Hôm nay" },
-  { "lesson": "Bài 3", "hanzi": "晚上", "pinyin": "wǎn shang", "meaning": "Buổi tối" },
-  { "lesson": "Bài 3", "hanzi": "看", "pinyin": "kàn", "meaning": "Xem, nhìn, đọc" },
-  { "lesson": "Bài 3", "hanzi": "電影", "pinyin": "diàn yǐng", "meaning": "Phim, điện ảnh" },
-  { "lesson": "Bài 3", "hanzi": "妳", "pinyin": "nǐ", "meaning": "Bạn (dùng cho phái nữ)" },
-  { "lesson": "Bài 3", "hanzi": "想", "pinyin": "xiǎng", "meaning": "Muốn, nhớ" },
-  { "lesson": "Bài 3", "hanzi": "還是", "pinyin": "hái shì", "meaning": "Hoặc là, hay là" },
-  { "lesson": "Bài 3", "hanzi": "吧", "pinyin": "ba", "meaning": "Nhé, đi (trợ từ)" },
-  { "lesson": "Bài 3", "hanzi": "可以", "pinyin": "kě yǐ", "meaning": "Có thể" },
-  { "lesson": "Bài 3", "hanzi": "學", "pinyin": "xué", "meaning": "Học" },
-  { "lesson": "Bài 3", "hanzi": "中文", "pinyin": "zhōng wén", "meaning": "Tiếng Trung" },
-  { "lesson": "Bài 3", "hanzi": "一起", "pinyin": "yī qǐ", "meaning": "Cùng nhau" },
-  { "lesson": "Bài 3", "hanzi": "吃", "pinyin": "chī", "meaning": "Ăn" },
-  { "lesson": "Bài 3", "hanzi": "晚飯", "pinyin": "wǎn fàn", "meaning": "Bữa tối, cơm tối" },
-  { "lesson": "Bài 3", "hanzi": "菜", "pinyin": "cài", "meaning": "Món ăn, rau" },
-  { "lesson": "Bài 3", "hanzi": "越南", "pinyin": "Yuè nán", "meaning": "Việt Nam" },
-  { "lesson": "Bài 3", "hanzi": "好不好", "pinyin": "hǎo bù hǎo", "meaning": "Được không?" },
-
-  // --- BÀI 4 ---
-  { "lesson": "Bài 4", "hanzi": "一共", "pinyin": "yī gòng", "meaning": "Tổng cộng" },
-  { "lesson": "Bài 4", "hanzi": "多少", "pinyin": "duō shao", "meaning": "Bao nhiêu" },
-  { "lesson": "Bài 4", "hanzi": "錢", "pinyin": "qián", "meaning": "Tiền" },
-  { "lesson": "Bài 4", "hanzi": "老闆", "pinyin": "lǎo bǎn", "meaning": "Ông chủ, bà chủ" },
-  { "lesson": "Bài 4", "hanzi": "買", "pinyin": "mǎi", "meaning": "Mua" },
-  { "lesson": "Bài 4", "hanzi": "杯", "pinyin": "bēi", "meaning": "Ly, cốc (lượng từ)" },
-  { "lesson": "Bài 4", "hanzi": "熱", "pinyin": "rè", "meaning": "Nóng" },
-  { "lesson": "Bài 4", "hanzi": "包子", "pinyin": "bāo zi", "meaning": "Bánh bao" },
-  { "lesson": "Bài 4", "hanzi": "要", "pinyin": "yào", "meaning": "Cần, muốn" },
-  { "lesson": "Bài 4", "hanzi": "大", "pinyin": "dà", "meaning": "Lớn, to" },
-  { "lesson": "Bài 4", "hanzi": "中", "pinyin": "zhōng", "meaning": "Vừa, trung bình" },
-  { "lesson": "Bài 4", "hanzi": "小", "pinyin": "xiǎo", "meaning": "Nhỏ, bé" },
-  { "lesson": "Bài 4", "hanzi": "幫", "pinyin": "bāng", "meaning": "Giúp" },
-  { "lesson": "Bài 4", "hanzi": "微波", "pinyin": "wēi bō", "meaning": "Vi sóng, hâm vi sóng" },
-  { "lesson": "Bài 4", "hanzi": "百", "pinyin": "bǎi", "meaning": "Trăm" },
-  { "lesson": "Bài 4", "hanzi": "塊", "pinyin": "kuài", "meaning": "Đồng, tệ (đơn vị tiền)" },
-  { "lesson": "Bài 4", "hanzi": "好的", "pinyin": "hǎo de", "meaning": "Được rồi, vâng" },
-  { "lesson": "Bài 4", "hanzi": "外帶", "pinyin": "wài dài", "meaning": "Mang đi" },
-  { "lesson": "Bài 4", "hanzi": "內用", "pinyin": "nèi yòng", "meaning": "Dùng tại chỗ / ăn tại quán" },
-  { "lesson": "Bài 4", "hanzi": "支", "pinyin": "zhī", "meaning": "Cây, chiếc (lượng từ)" },
-  { "lesson": "Bài 4", "hanzi": "新", "pinyin": "xīn", "meaning": "Mới" },
-  { "lesson": "Bài 4", "hanzi": "手機", "pinyin": "shǒu jī", "meaning": "Điện thoại di động" },
-  { "lesson": "Bài 4", "hanzi": "太", "pinyin": "tài", "meaning": "Quá" },
-  { "lesson": "Bài 4", "hanzi": "舊", "pinyin": "jiù", "meaning": "Cũ" },
-  { "lesson": "Bài 4", "hanzi": "了", "pinyin": "le", "meaning": "Rồi (trợ từ)" },
-  { "lesson": "Bài 4", "hanzi": "種", "pinyin": "zhǒng", "meaning": "Loại, giống" },
-  { "lesson": "Bài 4", "hanzi": "能", "pinyin": "néng", "meaning": "Có thể" },
-  { "lesson": "Bài 4", "hanzi": "上網", "pinyin": "shàng wǎng", "meaning": "Lên mạng, truy cập internet" },
-  { "lesson": "Bài 4", "hanzi": "那", "pinyin": "nà", "meaning": "Kia, đó" },
-  { "lesson": "Bài 4", "hanzi": "貴", "pinyin": "guì", "meaning": "Đắt" },
-  { "lesson": "Bài 4", "hanzi": "賣", "pinyin": "mài", "meaning": "Bán" },
-  { "lesson": "Bài 4", "hanzi": "便宜", "pinyin": "pián yi", "meaning": "Rẻ" },
-  { "lesson": "Bài 4", "hanzi": "要", "pinyin": "yào", "meaning": "Tốn, mất, cần" },
-  { "lesson": "Bài 4", "hanzi": "萬", "pinyin": "wàn", "meaning": "Vạn, mười nghìn" },
-  { "lesson": "Bài 4", "hanzi": "千", "pinyin": "qiān", "meaning": "Nghìn" },
-  { "lesson": "Bài 4", "hanzi": "為什麼", "pinyin": "wèi shén me", "meaning": "Tại sao" },
-
-  // --- BÀI 5 ---
-  { "lesson": "Bài 5", "hanzi": "牛肉", "pinyin": "niú ròu", "meaning": "Thịt bò" },
-  { "lesson": "Bài 5", "hanzi": "麵", "pinyin": "miàn", "meaning": "Mì" },
-  { "lesson": "Bài 5", "hanzi": "真", "pinyin": "zhēn", "meaning": "Thật, thực sự" },
-  { "lesson": "Bài 5", "hanzi": "好吃", "pinyin": "hǎo chī", "meaning": "Ngon" },
-  { "lesson": "Bài 5", "hanzi": "說", "pinyin": "shuō", "meaning": "Nói" },
-  { "lesson": "Bài 5", "hanzi": "少", "pinyin": "shǎo", "meaning": "Ít" },
-  { "lesson": "Bài 5", "hanzi": "有名", "pinyin": "yǒu míng", "meaning": "Nổi tiếng" },
-  { "lesson": "Bài 5", "hanzi": "小吃", "pinyin": "xiǎo chī", "meaning": "Đồ ăn vặt, quà vặt" },
-  { "lesson": "Bài 5", "hanzi": "最", "pinyin": "zuì", "meaning": "Nhất" },
-  { "lesson": "Bài 5", "hanzi": "湯", "pinyin": "tāng", "meaning": "Canh, súp" },
-  { "lesson": "Bài 5", "hanzi": "這麼", "pinyin": "zhè me", "meaning": "Thế này, như thế này" },
-  { "lesson": "Bài 5", "hanzi": "知道", "pinyin": "zhī dào", "meaning": "Biết" },
-  { "lesson": "Bài 5", "hanzi": "家", "pinyin": "jiā", "meaning": "Quán, nhà (lượng từ cho cửa hàng)" },
-  { "lesson": "Bài 5", "hanzi": "店", "pinyin": "diàn", "meaning": "Cửa hàng, tiệm" },
-  { "lesson": "Bài 5", "hanzi": "一定", "pinyin": "yī dìng", "meaning": "Nhất định" },
-  { "lesson": "Bài 5", "hanzi": "點", "pinyin": "diǎn", "meaning": "Gọi món, chọn" },
-  { "lesson": "Bài 5", "hanzi": "碗", "pinyin": "wǎn", "meaning": "Bát, tô (lượng từ)" },
-  { "lesson": "Bài 5", "hanzi": "是啊", "pinyin": "shì a", "meaning": "Đúng vậy, phải đấy" },
-  { "lesson": "Bài 5", "hanzi": "小籠包", "pinyin": "xiǎo lóng bāo", "meaning": "Bánh bao tiểu lung" },
-  { "lesson": "Bài 5", "hanzi": "臭豆腐", "pinyin": "chòu dòu fu", "meaning": "Đậu hũ thối" },
-  { "lesson": "Bài 5", "hanzi": "太好了", "pinyin": "tài hǎo le", "meaning": "Tốt quá, tuyệt vời" },
-  { "lesson": "Bài 5", "hanzi": "昨天", "pinyin": "zuó tiān", "meaning": "Hôm qua" },
-  { "lesson": "Bài 5", "hanzi": "餐廳", "pinyin": "cān tīng", "meaning": "Nhà hàng" },
-  { "lesson": "Bài 5", "hanzi": "可是", "pinyin": "kě shì", "meaning": "Nhưng, nhưng mà" },
-  { "lesson": "Bài 5", "hanzi": "辣", "pinyin": "là", "meaning": "Cay" },
-  { "lesson": "Bài 5", "hanzi": "怕", "pinyin": "pà", "meaning": "Sợ" },
-  { "lesson": "Bài 5", "hanzi": "所以", "pinyin": "suǒ yǐ", "meaning": "Cho nên, vì vậy" },
-  { "lesson": "Bài 5", "hanzi": "自己", "pinyin": "zì jǐ", "meaning": "Bản thân, tự mình" },
-  { "lesson": "Bài 5", "hanzi": "做飯", "pinyin": "zuò fàn", "meaning": "Nấu ăn, làm cơm" },
-  { "lesson": "Bài 5", "hanzi": "得", "pinyin": "de", "meaning": "Trợ từ kết cấu" },
-  { "lesson": "Bài 5", "hanzi": "會", "pinyin": "huì", "meaning": "Biết, sẽ" },
-  { "lesson": "Bài 5", "hanzi": "甜點", "pinyin": "tián diǎn", "meaning": "Món tráng miệng" },
-  { "lesson": "Bài 5", "hanzi": "不錯", "pinyin": "bù cuò", "meaning": "Không tồi, được" },
-  { "lesson": "Bài 5", "hanzi": "可以", "pinyin": "kě yǐ", "meaning": "Có thể" },
-  { "lesson": "Bài 5", "hanzi": "教", "pinyin": "jiāo", "meaning": "Dạy" },
-  { "lesson": "Bài 5", "hanzi": "到", "pinyin": "dào", "meaning": "Đến" },
-  { "lesson": "Bài 5", "hanzi": "有一點", "pinyin": "yǒu yī diǎn", "meaning": "Có một chút" },
-  { "lesson": "Bài 5", "hanzi": "不好", "pinyin": "bù hǎo", "meaning": "Không tốt, không hay" },
-
-  // --- BÀI 6 ---
-  { "lesson": "Bài 6", "hanzi": "他們", "pinyin": "tā men", "meaning": "Họ" },
-  { "lesson": "Bài 6", "hanzi": "學校", "pinyin": "xué xiào", "meaning": "Trường học" },
-  { "lesson": "Bài 6", "hanzi": "在", "pinyin": "zài", "meaning": "Ở" },
-  { "lesson": "Bài 6", "hanzi": "山上", "pinyin": "shān shàng", "meaning": "Trên núi" },
-  { "lesson": "Bài 6", "hanzi": "哪里", "pinyin": "nǎ lǐ", "meaning": "Đâu, ở đâu" },
-  { "lesson": "Bài 6", "hanzi": "遠", "pinyin": "yuǎn", "meaning": "Xa" },
-  { "lesson": "Bài 6", "hanzi": "那里", "pinyin": "nà lǐ", "meaning": "Ở đó, kia" },
-  { "lesson": "Bài 6", "hanzi": "風景", "pinyin": "fēng jǐng", "meaning": "Phong cảnh" },
-  { "lesson": "Bài 6", "hanzi": "美", "pinyin": "měi", "meaning": "Đẹp" },
-  { "lesson": "Bài 6", "hanzi": "前面", "pinyin": "qián miàn", "meaning": "Phía trước" },
-  { "lesson": "Bài 6", "hanzi": "海", "pinyin": "hǎi", "meaning": "Biển" },
-  { "lesson": "Bài 6", "hanzi": "後面", "pinyin": "hòu miàn", "meaning": "Phía sau" },
-  { "lesson": "Bài 6", "hanzi": "山", "pinyin": "shān", "meaning": "Núi" },
-  { "lesson": "Bài 6", "hanzi": "真的", "pinyin": "zhēn de", "meaning": "Thật sự, thực sự" },
-  { "lesson": "Bài 6", "hanzi": "地方", "pinyin": "dì fang", "meaning": "Nơi, địa điểm" },
-  { "lesson": "Bài 6", "hanzi": "現在", "pinyin": "xiàn zài", "meaning": "Bây giờ" },
-  { "lesson": "Bài 6", "hanzi": "附近", "pinyin": "fù jìn", "meaning": "Gần đây, khu vực lân cận" },
-  { "lesson": "Bài 6", "hanzi": "樓下", "pinyin": "lóu xià", "meaning": "Dưới lầu, tầng dưới" },
-  { "lesson": "Bài 6", "hanzi": "找", "pinyin": "zhǎo", "meaning": "Tìm" },
-  { "lesson": "Bài 6", "hanzi": "朋友", "pinyin": "péng you", "meaning": "Bạn bè" },
-  { "lesson": "Bài 6", "hanzi": "上課", "pinyin": "shàng kè", "meaning": "Lên lớp, đi học" },
-  { "lesson": "Bài 6", "hanzi": "花蓮", "pinyin": "Huā lián", "meaning": "Hoa Liên" },
-  { "lesson": "Bài 6", "hanzi": "聽說", "pinyin": "tīng shuō", "meaning": "Nghe nói" },
-  { "lesson": "Bài 6", "hanzi": "近", "pinyin": "jìn", "meaning": "Gần" },
-  { "lesson": "Bài 6", "hanzi": "方便", "pinyin": "fāng biàn", "meaning": "Thuận tiện" },
-  { "lesson": "Bài 6", "hanzi": "這裡", "pinyin": "zhè lǐ", "meaning": "Ở đây" },
-  { "lesson": "Bài 6", "hanzi": "學生", "pinyin": "xué sheng", "meaning": "Học sinh, sinh viên" },
-  { "lesson": "Bài 6", "hanzi": "在", "pinyin": "zài", "meaning": "Đang (chỉ hành động tiếp diễn)" },
-  { "lesson": "Bài 6", "hanzi": "東西", "pinyin": "dōng xi", "meaning": "Đồ đạc, đồ vật" },
-  { "lesson": "Bài 6", "hanzi": "外面", "pinyin": "wài miàn", "meaning": "Phía ngoài" },
-  { "lesson": "Bài 6", "hanzi": "裡面", "pinyin": "lǐ miàn", "meaning": "Phía trong" },
-  { "lesson": "Bài 6", "hanzi": "商店", "pinyin": "shāng diàn", "meaning": "Cửa hàng" },
-  { "lesson": "Bài 6", "hanzi": "吃飯", "pinyin": "chī fàn", "meaning": "Ăn cơm" },
-  { "lesson": "Bài 6", "hanzi": "宿舍", "pinyin": "sù shè", "meaning": "Ký túc xá" },
-  { "lesson": "Bài 6", "hanzi": "樓", "pinyin": "lóu", "meaning": "Tầng, lầu, tòa nhà" },
-  { "lesson": "Bài 6", "hanzi": "棟", "pinyin": "dòng", "meaning": "Tòa (lượng từ cho tòa nhà)" },
-  { "lesson": "Bài 6", "hanzi": "大樓", "pinyin": "dà lóu", "meaning": "Tòa nhà lớn" },
-  { "lesson": "Bài 6", "hanzi": "圖書館", "pinyin": "tú shū guǎn", "meaning": "Thư viện" },
-  { "lesson": "Bài 6", "hanzi": "旁邊", "pinyin": "páng biān", "meaning": "Bên cạnh" },
-  { "lesson": "Bài 6", "hanzi": "教室", "pinyin": "jiào shì", "meaning": "Phòng học" },
-  { "lesson": "Bài 6", "hanzi": "游泳池", "pinyin": "yóu yǒng chí", "meaning": "Hồ bơi" },
-
-  // --- BÀI 7 ---
-  { "lesson": "Bài 7", "hanzi": "點", "pinyin": "diǎn", "meaning": "Giờ, điểm" },
-  { "lesson": "Bài 7", "hanzi": "KTV", "pinyin": "KTV", "meaning": "Phòng karaoke" },
-  { "lesson": "Bài 7", "hanzi": "唱歌", "pinyin": "chàng gē", "meaning": "Hát, ca hát" },
-  { "lesson": "Bài 7", "hanzi": "分", "pinyin": "fēn", "meaning": "Phút" },
-  { "lesson": "Bài 7", "hanzi": "見面", "pinyin": "jiàn miàn", "meaning": "Gặp mặt" },
-  { "lesson": "Bài 7", "hanzi": "從", "pinyin": "cóng", "meaning": "Từ" },
-  { "lesson": "Bài 7", "hanzi": "中午", "pinyin": "zhōng wǔ", "meaning": "Buổi trưa" },
-  { "lesson": "Bài 7", "hanzi": "得", "pinyin": "děi", "meaning": "Phải" },
-  { "lesson": "Bài 7", "hanzi": "銀行", "pinyin": "yín háng", "meaning": "Ngân hàng" },
-  { "lesson": "Bài 7", "hanzi": "時候", "pinyin": "shí hou", "meaning": "Lúc, khi" },
-  { "lesson": "Bài 7", "hanzi": "後天", "pinyin": "hòu tiān", "meaning": "Ngày kia" },
-  { "lesson": "Bài 7", "hanzi": "大安", "pinyin": "Dà 'ān", "meaning": "Đại An (tên quận ở Đài Bắc)" },
-  { "lesson": "Bài 7", "hanzi": "下次", "pinyin": "xià cì", "meaning": "Lần sau" },
-  { "lesson": "Bài 7", "hanzi": "沒問題", "pinyin": "méi wèn tí", "meaning": "Không vấn đề gì, được chứ" },
-  { "lesson": "Bài 7", "hanzi": "對了", "pinyin": "duì le", "meaning": "Đúng rồi, phải rồi" },
-  { "lesson": "Bài 7", "hanzi": "有空", "pinyin": "yǒu kòng", "meaning": "Rảnh rỗi" },
-  { "lesson": "Bài 7", "hanzi": "再見", "pinyin": "zài jiàn", "meaning": "Tạm biệt" },
-  { "lesson": "Bài 7", "hanzi": "在", "pinyin": "zài", "meaning": "Đang" },
-  { "lesson": "Bài 7", "hanzi": "午餐", "pinyin": "wǔ cān", "meaning": "Bữa trưa" },
-  { "lesson": "Bài 7", "hanzi": "剛", "pinyin": "gāng", "meaning": "Vừa, vừa mới" },
-  { "lesson": "Bài 7", "hanzi": "下課", "pinyin": "xià kè", "meaning": "Tan học" },
-  { "lesson": "Bài 7", "hanzi": "下午", "pinyin": "xià wǔ", "meaning": "Buổi chiều" },
-  { "lesson": "Bài 7", "hanzi": "半", "pinyin": "bàn", "meaning": "Rưỡi, nửa" },
-  { "lesson": "Bài 7", "hanzi": "比賽", "pinyin": "bǐ sài", "meaning": "Cuộc thi, thi đấu" },
-  { "lesson": "Bài 7", "hanzi": "結束", "pinyin": "jié shù", "meaning": "Kết thúc" },
-  { "lesson": "Bài 7", "hanzi": "最近", "pinyin": "zuì jìn", "meaning": "Gần đây" },
-  { "lesson": "Bài 7", "hanzi": "忙", "pinyin": "máng", "meaning": "Bận" },
-  { "lesson": "Bài 7", "hanzi": "每", "pinyin": "měi", "meaning": "Mỗi" },
-  { "lesson": "Bài 7", "hanzi": "天", "pinyin": "tiān", "meaning": "Ngày" },
-  { "lesson": "Bài 7", "hanzi": "書法", "pinyin": "shū fǎ", "meaning": "Thư pháp" },
-  { "lesson": "Bài 7", "hanzi": "課", "pinyin": "kè", "meaning": "Tiết học, bài học" },
-  { "lesson": "Bài 7", "hanzi": "開始", "pinyin": "kāi shǐ", "meaning": "Bắt đầu" },
-  { "lesson": "Bài 7", "hanzi": "字", "pinyin": "zì", "meaning": "Chữ" },
-  { "lesson": "Bài 7", "hanzi": "寫", "pinyin": "xiě", "meaning": "Viết" },
-  { "lesson": "Bài 7", "hanzi": "可以", "pinyin": "kě yǐ", "meaning": "Có thể" },
-  { "lesson": "Bài 7", "hanzi": "問", "pinyin": "wèn", "meaning": "Hỏi" },
-  { "lesson": "Bài 7", "hanzi": "等一下", "pinyin": "děng yī xià", "meaning": "Chờ một lát" },
-  { "lesson": "Bài 7", "hanzi": "有事", "pinyin": "yǒu shì", "meaning": "Có việc bận" },
-  { "lesson": "Bài 7", "hanzi": "有意思", "pinyin": "yǒu yì si", "meaning": "Thú vị, hay" },
-
-  // --- BÀI 8 ---
-  { "lesson": "Bài 8", "hanzi": "坐", "pinyin": "zuò", "meaning": "Đi, ngồi (phương tiện)" },
-  { "lesson": "Bài 8", "hanzi": "火車", "pinyin": "huǒ chē", "meaning": "Tàu hỏa" },
-  { "lesson": "Bài 8", "hanzi": "跟", "pinyin": "gēn", "meaning": "Cùng, với" },
-  { "lesson": "Bài 8", "hanzi": "玩", "pinyin": "wán", "meaning": "Chơi" },
-  { "lesson": "Bài 8", "hanzi": "怎麼", "pinyin": "zěn me", "meaning": "Thế nào, làm sao" },
-  { "lesson": "Bài 8", "hanzi": "慢", "pinyin": "màn", "meaning": "Chậm" },
-  { "lesson": "Bài 8", "hanzi": "鐘頭", "pinyin": "zhōng tóu", "meaning": "Giờ, tiếng đồng hồ" },
-  { "lesson": "Bài 8", "hanzi": "比較", "pinyin": "bǐ jiào", "meaning": "So sánh, hơn" },
-  { "lesson": "Bài 8", "hanzi": "快", "pinyin": "kuài", "meaning": "Nhanh" },
-  { "lesson": "Bài 8", "hanzi": "車票", "pinyin": "chē piào", "meaning": "Vé xe, vé tàu" },
-  { "lesson": "Bài 8", "hanzi": "非常", "pinyin": "fēi cháng", "meaning": "Vô cùng, rất" },
-  { "lesson": "Bài 8", "hanzi": "但是", "pinyin": "dàn shì", "meaning": "Nhưng, nhưng mà" },
-  { "lesson": "Bài 8", "hanzi": "又", "pinyin": "yòu", "meaning": "Lại" },
-  { "lesson": "Bài 8", "hanzi": "舒服", "pinyin": "shū fu", "meaning": "Thoải mái" },
-  { "lesson": "Bài 8", "hanzi": "站", "pinyin": "zhàn", "meaning": "Ga, trạm" },
-  { "lesson": "Bài 8", "hanzi": "或是", "pinyin": "huò shì", "meaning": "Hoặc là" },
-  { "lesson": "Bài 8", "hanzi": "臺南", "pinyin": "Tái nán", "meaning": "Đài Nam" },
-  { "lesson": "Bài 8", "hanzi": "高鐵", "pinyin": "gāo tiě", "meaning": "Tàu cao tốc" },
-  { "lesson": "Bài 8", "hanzi": "網路上", "pinyin": "wǎng luò shàng", "meaning": "Trên mạng internet" },
-  { "lesson": "Bài 8", "hanzi": "便利商店", "pinyin": "biàn lì shāng diàn", "meaning": "Cửa hàng tiện lợi" },
-  { "lesson": "Bài 8", "hanzi": "同學", "pinyin": "tóng xué", "meaning": "Bạn học" },
-  { "lesson": "Bài 8", "hanzi": "參觀", "pinyin": "cān guān", "meaning": "Tham quan" },
-  { "lesson": "Bài 8", "hanzi": "古代", "pinyin": "gǔ dài", "meaning": "Cổ đại" },
-  { "lesson": "Bài 8", "hanzi": "騎", "pinyin": "qí", "meaning": "Cưỡi, điều khiển (xe máy/xe đạp)" },
-  { "lesson": "Bài 8", "hanzi": "機車", "pinyin": "jī chē", "meaning": "Xe máy" },
-  { "lesson": "Bài 8", "hanzi": "載", "pinyin": "zài", "meaning": "Chở, đèo" },
-  { "lesson": "Bài 8", "hanzi": "捷運", "pinyin": "jié yùn", "meaning": "Tàu điện ngầm (MRT)" },
-  { "lesson": "Bài 8", "hanzi": "比", "pinyin": "bǐ", "meaning": "So với" },
-  { "lesson": "Bài 8", "hanzi": "故宮博物院", "pinyin": "Gù gōng bó wù yuàn", "meaning": "Bảo tàng Cố Cung" },
-  { "lesson": "Bài 8", "hanzi": "中國", "pinyin": "Zhōng guó", "meaning": "Trung Quốc" },
-  { "lesson": "Bài 8", "hanzi": "公共汽車", "pinyin": "gōng gòng qì chē", "meaning": "Xe buýt" },
-  { "lesson": "Bài 8", "hanzi": "不行", "pinyin": "bù xíng", "meaning": "Không được" },
-  { "lesson": "Bài 8", "hanzi": "計程車", "pinyin": "jì chéng chē", "meaning": "Xe taxi" },
-  { "lesson": "Bài 8", "hanzi": "差不多", "pinyin": "chà bu duō", "meaning": "Gần như, xấp xỉ" },
-
-  // --- BÀI 9 ---
-  { "lesson": "Bài 9", "hanzi": "星期 + số", "pinyin": "xīngqí + số", "meaning": "Thứ mấy" },
-  { "lesson": "Bài 9", "hanzi": "回國", "pinyin": "huí guó", "meaning": "Về nước" },
-  { "lesson": "Bài 9", "hanzi": "打算", "pinyin": "dǎ suàn", "meaning": "Dự tính, dự định" },
-  { "lesson": "Bài 9", "hanzi": "電視", "pinyin": "diàn shì", "meaning": "Ti vi" },
-  { "lesson": "Bài 9", "hanzi": "影片", "pinyin": "yǐng piàn", "meaning": "Phim video, đoạn phim" },
-  { "lesson": "Bài 9", "hanzi": "旅行", "pinyin": "lǚ xíng", "meaning": "Du lịch" },
-  { "lesson": "Bài 9", "hanzi": "功課", "pinyin": "gōng kè", "meaning": "Bài tập, công việc học tập" },
-  { "lesson": "Bài 9", "hanzi": "出去", "pinyin": "chū qù", "meaning": "Đi ra ngoài" },
-  { "lesson": "Bài 9", "hanzi": "大概", "pinyin": "dà gài", "meaning": "Khoảng chừng, đại khái" },
-  { "lesson": "Bài 9", "hanzi": "放假", "pinyin": "fàng jià", "meaning": "Nghỉ lễ, nghỉ hè/đông" },
-  { "lesson": "Bài 9", "hanzi": "下個星期", "pinyin": "xià gè xīngqí", "meaning": "Tuần sau" },
-  { "lesson": "Bài 9", "hanzi": "有時候", "pinyin": "yǒu shí hou", "meaning": "Thỉnh thoảng, có lúc" },
-  { "lesson": "Bài 9", "hanzi": "多久", "pinyin": "duō jiǔ", "meaning": "Bao lâu" },
-  { "lesson": "Bài 9", "hanzi": "臺東", "pinyin": "Tái dōng", "meaning": "Đài Đông" },
-  { "lesson": "Bài 9", "hanzi": "女 + danh từ", "pinyin": "nǚ + danh từ", "meaning": "Nữ + danh từ" },
-  { "lesson": "Bài 9", "hanzi": "số + 月", "pinyin": "số + yuè", "meaning": "Tháng + số" },
-  { "lesson": "Bài 9", "hanzi": "số + 號", "pinyin": "số + hào", "meaning": "Ngày + số" },
-  { "lesson": "Bài 9", "hanzi": "帶", "pinyin": "dài", "meaning": "Đem, mang" },
-  { "lesson": "Bài 9", "hanzi": "她", "pinyin": "tā", "meaning": "Cô ấy, chị ấy" },
-  { "lesson": "Bài 9", "hanzi": "還", "pinyin": "hái", "meaning": "Còn, vẫn" },
-  { "lesson": "Bài 9", "hanzi": "建議", "pinyin": "jiàn yì", "meaning": "Gợi ý, kiến nghị" },
-  { "lesson": "Bài 9", "hanzi": "夜市", "pinyin": "yè shì", "meaning": "Chợ đêm" },
-  { "lesson": "Bài 9", "hanzi": "應該", "pinyin": "yīng gāi", "meaning": "Nên" },
-  { "lesson": "Bài 9", "hanzi": "逛", "pinyin": "guàng", "meaning": "Đi dạo, dạo chơi" },
-  { "lesson": "Bài 9", "hanzi": "特別", "pinyin": "tè bié", "meaning": "Đặc biệt" },
-  { "lesson": "Bài 9", "hanzi": "茶館", "pinyin": "chá guǎn", "meaning": "Quán trà" },
-  { "lesson": "Bài 9", "hanzi": "決定", "pinyin": "jué dìng", "meaning": "Quyết định" },
-  { "lesson": "Bài 9", "hanzi": "要是", "pinyin": "yào shi", "meaning": "Nếu" },
-  { "lesson": "Bài 9", "hanzi": "就", "pinyin": "jiù", "meaning": "Thì" },
-  { "lesson": "Bài 9", "hanzi": "貓空", "pinyin": "Māo kōng", "meaning": "Miêu Không (địa danh ở Đài Bắc)" },
-
-  // --- BÀI 10 ---
-  { "lesson": "Bài 10", "hanzi": "拍", "pinyin": "pāi", "meaning": "Chụp ảnh, vỗ" },
-  { "lesson": "Bài 10", "hanzi": "笑", "pinyin": "xiào", "meaning": "Cười" },
-  { "lesson": "Bài 10", "hanzi": "開心", "pinyin": "kāi xīn", "meaning": "Vui vẻ" },
-  { "lesson": "Bài 10", "hanzi": "穿", "pinyin": "chuān", "meaning": "Mặc, mang" },
-  { "lesson": "Bài 10", "hanzi": "衣服", "pinyin": "yī fu", "meaning": "Quần áo" },
-  { "lesson": "Bài 10", "hanzi": "旅館", "pinyin": "lǚ guǎn", "meaning": "Khách sạn" },
-  { "lesson": "Bài 10", "hanzi": "太太", "pinyin": "tài tai", "meaning": "Vợ, phu nhân" },
-  { "lesson": "Bài 10", "hanzi": "男 + noun", "pinyin": "nán + noun", "meaning": "Nam + danh từ" },
-  { "lesson": "Bài 10", "hanzi": "矮", "pinyin": "ǎi", "meaning": "Thấp" },
-  { "lesson": "Bài 10", "hanzi": "高", "pinyin": "gāo", "meaning": "Cao" },
-  { "lesson": "Bài 10", "hanzi": "弟弟", "pinyin": "dì di", "meaning": "Em trai" },
-  { "lesson": "Bài 10", "hanzi": "乾淨", "pinyin": "gān jìng", "meaning": "Sạch sẽ" },
-  { "lesson": "Bài 10", "hanzi": "窗戶", "pinyin": "chuāng hu", "meaning": "Cửa sổ" },
-  { "lesson": "Bài 10", "hanzi": "往", "pinyin": "wǎng", "meaning": "Hướng về, đi về phía" },
-  { "lesson": "Bài 10", "hanzi": "藍色", "pinyin": "lán sè", "meaning": "Màu xanh dương" },
-  { "lesson": "Bài 10", "hanzi": "因為", "pinyin": "yīn wèi", "meaning": "Bởi vì" },
-  { "lesson": "Bài 10", "hanzi": "住", "pinyin": "zhù", "meaning": "Ở, sống" },
-  { "lesson": "Bài 10", "hanzi": "上個月", "pinyin": "shàng gè yuè", "meaning": "Tháng trước" },
-  { "lesson": "Bài 10", "hanzi": "這些", "pinyin": "zhè xiē", "meaning": "Những cái này, đây" },
-  { "lesson": "Bài 10", "hanzi": "水果", "pinyin": "shuǐ guǒ", "meaning": "Trái cây, hoa quả" },
-  { "lesson": "Bài 10", "hanzi": "黃色", "pinyin": "huáng sè", "meaning": "Màu vàng" },
-  { "lesson": "Bài 10", "hanzi": "芒果", "pinyin": "máng guǒ", "meaning": "Xoài" },
-  { "lesson": "Bài 10", "hanzi": "給", "pinyin": "gěi", "meaning": "Cho, tặng" },
-  { "lesson": "Bài 10", "hanzi": "塊", "pinyin": "kuài", "meaning": "Miếng, cục (lượng từ)" },
-  { "lesson": "Bài 10", "hanzi": "香", "pinyin": "xiāng", "meaning": "Thơm" },
-  { "lesson": "Bài 10", "hanzi": "甜", "pinyin": "tián", "meaning": "Ngọt" },
-  { "lesson": "Bài 10", "hanzi": "紅色", "pinyin": "hóng sè", "meaning": "Màu đỏ" },
-  { "lesson": "Bài 10", "hanzi": "西瓜", "pinyin": "xī guā", "meaning": "Dưa hấu" },
-  { "lesson": "Bài 10", "hanzi": "吧", "pinyin": "ba", "meaning": "Nhé, đi (trợ từ)" },
-  { "lesson": "Bài 10", "hanzi": "對", "pinyin": "duì", "meaning": "Đúng, đối với" },
-  { "lesson": "Bài 10", "hanzi": "以前", "pinyin": "yǐ qián", "meaning": "Trước đây, trước kia" },
-  { "lesson": "Bài 10", "hanzi": "機會", "pinyin": "jī huì", "meaning": "Cơ hội" },
-  { "lesson": "Bài 10", "hanzi": "請", "pinyin": "qǐng", "meaning": "Mời" },
-  { "lesson": "Bài 10", "hanzi": "吃吃看", "pinyin": "chī chī kàn", "meaning": "Ăn thử xem" },
-
-  // --- BÀI 11 ---
-  { "lesson": "Bài 11", "hanzi": "租", "pinyin": "zū", "meaning": "Thuê" },
-  { "lesson": "Bài 11", "hanzi": "房東", "pinyin": "fáng dōng", "meaning": "Chủ nhà" },
-  { "lesson": "Bài 11", "hanzi": "客廳", "pinyin": "kè tīng", "meaning": "Phòng khách" },
-  { "lesson": "Bài 11", "hanzi": "廚房", "pinyin": "chú fáng", "meaning": "Nhà bếp" },
-  { "lesson": "Bài 11", "hanzi": "左邊", "pinyin": "zuǒ biān", "meaning": "Phía bên trái" },
-  { "lesson": "Bài 11", "hanzi": "右邊", "pinyin": "yòu biān", "meaning": "Phía bên phải" },
-  { "lesson": "Bài 11", "hanzi": "浴室", "pinyin": "yù shì", "meaning": "Phòng tắm" },
-  { "lesson": "Bài 11", "hanzi": "超市", "pinyin": "chāo shì", "meaning": "Siêu thị" },
-  { "lesson": "Bài 11", "hanzi": "走路", "pinyin": "zǒu lù", "meaning": "Đi bộ" },
-  { "lesson": "Bài 11", "hanzi": "分鐘", "pinyin": "fēn zhōng", "meaning": "Phút" },
-  { "lesson": "Bài 11", "hanzi": "就", "pinyin": "jiù", "meaning": "Thì, liền" },
-  { "lesson": "Bài 11", "hanzi": "到", "pinyin": "dào", "meaning": "Đến" },
-  { "lesson": "Bài 11", "hanzi": "間", "pinyin": "jiān", "meaning": "Căn, gian (lượng từ phòng)" },
-  { "lesson": "Bài 11", "hanzi": "空", "pinyin": "kōng", "meaning": "Trống" },
-  { "lesson": "Bài 11", "hanzi": "房間", "pinyin": "fáng jiān", "meaning": "Phòng" },
-  { "lesson": "Bài 11", "hanzi": "套房", "pinyin": "tào fáng", "meaning": "Phòng khép kín (suite)" },
-  { "lesson": "Bài 11", "hanzi": "回去", "pinyin": "huí qù", "meaning": "Về, trở về" },
-  { "lesson": "Bài 11", "hanzi": "想", "pinyin": "xiǎng", "meaning": "Muốn, nghĩ" },
-  { "lesson": "Bài 11", "hanzi": "再", "pinyin": "zài", "meaning": "Lại, nữa" },
-  { "lesson": "Bài 11", "hanzi": "電話", "pinyin": "diàn huà", "meaning": "Điện thoại" },
-  { "lesson": "Bài 11", "hanzi": "給", "pinyin": "gěi", "meaning": "Cho, gọi cho" },
-  { "lesson": "Bài 11", "hanzi": "林", "pinyin": "Lín", "meaning": "Lâm (họ)" },
-  { "lesson": "Bài 11", "hanzi": "打電話", "pinyin": "dǎ diàn huà", "meaning": "Gọi điện thoại" },
-  { "lesson": "Bài 11", "hanzi": "喂", "pinyin": "wèi", "meaning": "Alo" },
-  { "lesson": "Bài 11", "hanzi": "房租", "pinyin": "fáng zū", "meaning": "Tiền thuê nhà" },
-  { "lesson": "Bài 11", "hanzi": "已經", "pinyin": "yǐ jīng", "meaning": "Đã, đã rồi" },
-  { "lesson": "Bài 11", "hanzi": "習慣", "pinyin": "xí guàn", "meaning": "Quen, thói quen" },
-  { "lesson": "Bài 11", "hanzi": "問題", "pinyin": "wèn tí", "meaning": "Vấn đề" },
-  { "lesson": "Bài 11", "hanzi": "熱水器", "pinyin": "rè shuǐ qì", "meaning": "Máy nước nóng" },
-  { "lesson": "Bài 11", "hanzi": "好像", "pinyin": "hǎo xiàng", "meaning": "Dường như, hình như" },
-  { "lesson": "Bài 11", "hanzi": "會", "pinyin": "huì", "meaning": "Sẽ" },
-  { "lesson": "Bài 11", "hanzi": "等", "pinyin": "děng", "meaning": "Chờ, đợi" },
-  { "lesson": "Bài 11", "hanzi": "那", "pinyin": "nà", "meaning": "Thế thì, vậy" },
-  { "lesson": "Bài 11", "hanzi": "裝", "pinyin": "zhuāng", "meaning": "Lắp đặt, trang bị" },
-  { "lesson": "Bài 11", "hanzi": "不過", "pinyin": "bù guò", "meaning": "Nhưng, tuy nhiên" },
-  { "lesson": "Bài 11", "hanzi": "付", "pinyin": "fù", "meaning": "Trả, thanh toán" },
-  { "lesson": "Bài 11", "hanzi": "收到", "pinyin": "shōu dào", "meaning": "Nhận được" },
-  { "lesson": "Bài 11", "hanzi": "不好意思", "pinyin": "bù hǎo yì si", "meaning": "Xin lỗi, ngại quá" },
-  { "lesson": "Bài 11", "hanzi": "沒關係", "pinyin": "méi guān xì", "meaning": "Không sao" },
-  { "lesson": "Bài 11", "hanzi": "有線電視", "pinyin": "yǒu xiàn diàn shì", "meaning": "Truyền hình cáp" },
-
-  // --- BÀI 12 ---
-  { "lesson": "Bài 12", "hanzi": "計畫", "pinyin": "jì huà", "meaning": "Kế hoạch" },
-  { "lesson": "Bài 12", "hanzi": "年", "pinyin": "nián", "meaning": "Năm" },
-  { "lesson": "Bài 12", "hanzi": "久", "pinyin": "jiǔ", "meaning": "Lâu" },
-  { "lesson": "Bài 12", "hanzi": "時間", "pinyin": "shí jiān", "meaning": "Thời gian" },
-  { "lesson": "Bài 12", "hanzi": "先", "pinyin": "xiān", "meaning": "Trước, trước tiên" },
-  { "lesson": "Bài 12", "hanzi": "念", "pinyin": "niàn", "meaning": "Học, đọc" },
-  { "lesson": "Bài 12", "hanzi": "大學", "pinyin": "dà xué", "meaning": "Đại học" },
-  { "lesson": "Bài 12", "hanzi": "需要", "pinyin": "xū yào", "meaning": "Cần, cần thiết" },
-  { "lesson": "Bài 12", "hanzi": "花", "pinyin": "huā", "meaning": "Tiêu, tốn (tiền/thời gian)" },
-  { "lesson": "Bài 12", "hanzi": "獎學金", "pinyin": "jiǎng xué jīn", "meaning": "Học bổng" },
-  { "lesson": "Bài 12", "hanzi": "成績", "pinyin": "chéng jī", "meaning": "Thành tích, điểm số" },
-  { "lesson": "Bài 12", "hanzi": "學費", "pinyin": "xué fèi", "meaning": "Học phí" },
-  { "lesson": "Bài 12", "hanzi": "公司", "pinyin": "gōng sī", "meaning": "Công ty" },
-  { "lesson": "Bài 12", "hanzi": "替", "pinyin": "tì", "meaning": "Thay cho, vì" },
-  { "lesson": "Bài 12", "hanzi": "希望", "pinyin": "xī wàng", "meaning": "Hy vọng" },
-  { "lesson": "Bài 12", "hanzi": "以後", "pinyin": "yǐ hòu", "meaning": "Sau này, sau khi" },
-  { "lesson": "Bài 12", "hanzi": "到", "pinyin": "dào", "meaning": "Đến" },
-  { "lesson": "Bài 12", "hanzi": "上班", "pinyin": "shàng bān", "meaning": "Đi làm" },
-  { "lesson": "Bài 12", "hanzi": "念書", "pinyin": "niàn shū", "meaning": "Học tập, đọc sách" },
-  { "lesson": "Bài 12", "hanzi": "累", "pinyin": "lèi", "meaning": "Mệt" },
-  { "lesson": "Bài 12", "hanzi": "語言中心", "pinyin": "yǔ yán zhōng xīn", "meaning": "Trung tâm ngôn ngữ" },
-  { "lesson": "Bài 12", "hanzi": "加油", "pinyin": "jiā yóu", "meaning": "Cố lên" },
-  { "lesson": "Bài 12", "hanzi": "工作", "pinyin": "gōng zuò", "meaning": "Công việc, làm việc" },
-  { "lesson": "Bài 12", "hanzi": "去年", "pinyin": "qù nián", "meaning": "Năm ngoái" },
-  { "lesson": "Bài 12", "hanzi": "做", "pinyin": "zuò", "meaning": "Làm" },
-  { "lesson": "Bài 12", "hanzi": "生意", "pinyin": "shēng yì", "meaning": "Kinh doanh, buôn bán" },
-  { "lesson": "Bài 12", "hanzi": "以後", "pinyin": "yǐ hòu", "meaning": "Sau này" },
-  { "lesson": "Bài 12", "hanzi": "好", "pinyin": "hǎo", "meaning": "Dễ, thuận lợi" },
-  { "lesson": "Bài 12", "hanzi": "找", "pinyin": "zhǎo", "meaning": "Tìm" },
-  { "lesson": "Bài 12", "hanzi": "工作", "pinyin": "gōng zuò", "meaning": "Công việc" },
-  { "lesson": "Bài 12", "hanzi": "這樣", "pinyin": "zhè yàng", "meaning": "Như thế này" },
-  { "lesson": "Bài 12", "hanzi": "國家", "pinyin": "guó jiā", "meaning": "Quốc gia, đất nước" },
-  { "lesson": "Bài 12", "hanzi": "試", "pinyin": "shì", "meaning": "Thử" },
-  { "lesson": "Bài 12", "hanzi": "難", "pinyin": "nán", "meaning": "Khó" },
-  { "lesson": "Bài 12", "hanzi": "那麼", "pinyin": "nà me", "meaning": "Thế thì, như vậy" },
-  { "lesson": "Bài 12", "hanzi": "再", "pinyin": "zài", "meaning": "Lại, thử lại" },
-  { "lesson": "Bài 12", "hanzi": "試試看", "pinyin": "shì shi kàn", "meaning": "Thử xem" }
-]
+  {
+    "lesson": "Bài 1",
+    "hanzi": "陳月美",
+    "pinyin": "Chén Yuèměi",
+    "meaning": "Trần Nguyệt Mỹ (tên người)"
+  },
+  {
+    "lesson": "Bài 1",
+    "hanzi": "李明華",
+    "pinyin": "Lǐ Mínghuá",
+    "meaning": "Lý Minh Hoa (tên người)"
+  },
+  {
+    "lesson": "Bài 1",
+    "hanzi": "王開文",
+    "pinyin": "Wáng Kāiwén",
+    "meaning": "Vương Khai Văn (tên người)"
+  },
+  {
+    "lesson": "Bài 1",
+    "hanzi": "你",
+    "pinyin": "nǐ",
+    "meaning": "Bạn"
+  },
+  {
+    "lesson": "Bài 1",
+    "hanzi": "來",
+    "pinyin": "lái",
+    "meaning": "Đến"
+  },
+  {
+    "lesson": "Bài 1",
+    "hanzi": "是",
+    "pinyin": "shì",
+    "meaning": "Là"
+  },
+  {
+    "lesson": "Bài 1",
+    "hanzi": "小姐",
+    "pinyin": "xiǎo jiě",
+    "meaning": "Cô, tiểu thư"
+  },
+  {
+    "lesson": "Bài 1",
+    "hanzi": "嗎",
+    "pinyin": "ma",
+    "meaning": "Không? (trợ từ nghi vấn)"
+  },
+  {
+    "lesson": "Bài 1",
+    "hanzi": "接",
+    "pinyin": "jiē",
+    "meaning": "Đón"
+  },
+  {
+    "lesson": "Bài 1",
+    "hanzi": "我們",
+    "pinyin": "wǒ men",
+    "meaning": "Chúng tôi"
+  },
+  {
+    "lesson": "Bài 1",
+    "hanzi": "我",
+    "pinyin": "wǒ",
+    "meaning": "Tôi"
+  },
+  {
+    "lesson": "Bài 1",
+    "hanzi": "這",
+    "pinyin": "zhè",
+    "meaning": "Đây, này"
+  },
+  {
+    "lesson": "Bài 1",
+    "hanzi": "先生",
+    "pinyin": "xiān shēng",
+    "meaning": "Ông, ngài"
+  },
+  {
+    "lesson": "Bài 1",
+    "hanzi": "好",
+    "pinyin": "hǎo",
+    "meaning": "Tốt; khỏe"
+  },
+  {
+    "lesson": "Bài 1",
+    "hanzi": "姓",
+    "pinyin": "xìng",
+    "meaning": "Họ (họ tên)"
+  },
+  {
+    "lesson": "Bài 1",
+    "hanzi": "叫",
+    "pinyin": "jiào",
+    "meaning": "Tên là; gọi là"
+  },
+  {
+    "lesson": "Bài 1",
+    "hanzi": "你們",
+    "pinyin": "nǐ men",
+    "meaning": "Các bạn"
+  },
+  {
+    "lesson": "Bài 1",
+    "hanzi": "臺灣",
+    "pinyin": "Táiwān",
+    "meaning": "Đài Loan"
+  },
+  {
+    "lesson": "Bài 1",
+    "hanzi": "歡迎",
+    "pinyin": "huān yíng",
+    "meaning": "Chào mừng"
+  },
+  {
+    "lesson": "Bài 1",
+    "hanzi": "請問",
+    "pinyin": "qǐng wèn",
+    "meaning": "Xin hỏi"
+  },
+  {
+    "lesson": "Bài 1",
+    "hanzi": "是的",
+    "pinyin": "shì de",
+    "meaning": "Đúng vậy"
+  },
+  {
+    "lesson": "Bài 1",
+    "hanzi": "謝謝",
+    "pinyin": "xiè xie",
+    "meaning": "Cảm ơn"
+  },
+  {
+    "lesson": "Bài 1",
+    "hanzi": "不客氣",
+    "pinyin": "bú kè qi",
+    "meaning": "Không có gì"
+  },
+  {
+    "lesson": "Bài 1",
+    "hanzi": "你好",
+    "pinyin": "nǐ hǎo",
+    "meaning": "Xin chào"
+  }
+  {
+    "lesson": "Bài 2",
+    "hanzi": "張怡君",
+    "pinyin": "Zhāng Yíjūn",
+    "meaning": "Trương Di Quân (tên người)"
+  },
+  {
+    "lesson": "Bài 2",
+    "hanzi": "馬安同",
+    "pinyin": "Mǎ Āntóng",
+    "meaning": "Mã An Đồng (tên người)"
+  },
+  {
+    "lesson": "Bài 2",
+    "hanzi": "的",
+    "pinyin": "de",
+    "meaning": "Của"
+  },
+  {
+    "lesson": "Bài 2",
+    "hanzi": "家人",
+    "pinyin": "jiā rén",
+    "meaning": "Người nhà, gia đình"
+  },
+  {
+    "lesson": "Bài 2",
+    "hanzi": "家",
+    "pinyin": "jiā",
+    "meaning": "Nhà, gia đình"
+  },
+  {
+    "lesson": "Bài 2",
+    "hanzi": "漂亮",
+    "pinyin": "piào liang",
+    "meaning": "Đẹp"
+  },
+  {
+    "lesson": "Bài 2",
+    "hanzi": "房子",
+    "pinyin": "fáng zi",
+    "meaning": "Ngôi nhà"
+  },
+  {
+    "lesson": "Bài 2",
+    "hanzi": "坐",
+    "pinyin": "zuò",
+    "meaning": "Ngồi"
+  },
+  {
+    "lesson": "Bài 2",
+    "hanzi": "好",
+    "pinyin": "hǎo",
+    "meaning": "Tốt"
+  },
+  {
+    "lesson": "Bài 2",
+    "hanzi": "有",
+    "pinyin": "yǒu",
+    "meaning": "Có"
+  },
+  {
+    "lesson": "Bài 2",
+    "hanzi": "多",
+    "pinyin": "duō",
+    "meaning": "Nhiều"
+  },
+  {
+    "lesson": "Bài 2",
+    "hanzi": "照片",
+    "pinyin": "zhào piàn",
+    "meaning": "Ảnh, hình chụp"
+  },
+  {
+    "lesson": "Bài 2",
+    "hanzi": "都",
+    "pinyin": "dōu",
+    "meaning": "Đều"
+  },
+  {
+    "lesson": "Bài 2",
+    "hanzi": "照相",
+    "pinyin": "zhào xiàng",
+    "meaning": "Chụp ảnh"
+  },
+  {
+    "lesson": "Bài 2",
+    "hanzi": "張",
+    "pinyin": "zhāng",
+    "meaning": "Tấm, bức (lượng từ)"
+  },
+  {
+    "lesson": "Bài 2",
+    "hanzi": "好看",
+    "pinyin": "hǎo kàn",
+    "meaning": "Đẹp, dễ nhìn"
+  },
+  {
+    "lesson": "Bài 2",
+    "hanzi": "誰",
+    "pinyin": "shéi",
+    "meaning": "Ai"
+  },
+  {
+    "lesson": "Bài 2",
+    "hanzi": "姐姐",
+    "pinyin": "jiě jie",
+    "meaning": "Chị gái"
+  },
+  {
+    "lesson": "Bài 2",
+    "hanzi": "妹妹",
+    "pinyin": "mèi mei",
+    "meaning": "Em gái"
+  },
+  {
+    "lesson": "Bài 2",
+    "hanzi": "爸爸",
+    "pinyin": "bà ba",
+    "meaning": "Bố"
+  },
+  {
+    "lesson": "Bài 2",
+    "hanzi": "媽媽",
+    "pinyin": "mā ma",
+    "meaning": "Mẹ"
+  },
+  {
+    "lesson": "Bài 2",
+    "hanzi": "請進",
+    "pinyin": "qǐng jìn",
+    "meaning": "Mời vào"
+  },
+  {
+    "lesson": "Bài 2",
+    "hanzi": "田中誠一",
+    "pinyin": "Tiánzhōng Chéngyī",
+    "meaning": "Tanaka Seiichi (tên người)"
+  },
+  {
+    "lesson": "Bài 2",
+    "hanzi": "伯母",
+    "pinyin": "bó mǔ",
+    "meaning": "Bác gái (vợ anh của bố)"
+  },
+  {
+    "lesson": "Bài 2",
+    "hanzi": "您",
+    "pinyin": "nín",
+    "meaning": "Ngài, ông/bà (kính ngữ của bạn)"
+  },
+  {
+    "lesson": "Bài 2",
+    "hanzi": "名字",
+    "pinyin": "míng zi",
+    "meaning": "Tên"
+  },
+  {
+    "lesson": "Bài 2",
+    "hanzi": "書",
+    "pinyin": "shū",
+    "meaning": "Sách"
+  },
+  {
+    "lesson": "Bài 2",
+    "hanzi": "哥哥",
+    "pinyin": "gē ge",
+    "meaning": "Anh trai"
+  },
+  {
+    "lesson": "Bài 2",
+    "hanzi": "老師",
+    "pinyin": "lǎo shī",
+    "meaning": "Giáo viên"
+  },
+  {
+    "lesson": "Bài 2",
+    "hanzi": "看書",
+    "pinyin": "kàn shū",
+    "meaning": "Đọc sách"
+  },
+  {
+    "lesson": "Bài 2",
+    "hanzi": "幾",
+    "pinyin": "jǐ",
+    "meaning": "Mấy"
+  },
+  {
+    "lesson": "Bài 2",
+    "hanzi": "個",
+    "pinyin": "gè",
+    "meaning": "Cái, người (lượng từ)"
+  },
+  {
+    "lesson": "Bài 2",
+    "hanzi": "沒",
+    "pinyin": "méi",
+    "meaning": "Không có"
+  },
+  {
+    "lesson": "Bài 2",
+    "hanzi": "兄弟",
+    "pinyin": "xiōng dì",
+    "meaning": "Anh em trai"
+  },
+  {
+    "lesson": "Bài 2",
+    "hanzi": "姐妹",
+    "pinyin": "jiě mèi",
+    "meaning": "Chị em gái"
+  },
+  {
+    "lesson": "Bài 2",
+    "hanzi": "五",
+    "pinyin": "wǔ",
+    "meaning": "Năm"
+  },
+  {
+    "lesson": "Bài 2",
+    "hanzi": "兩",
+    "pinyin": "liǎng",
+    "meaning": "Hai (dùng trước lượng từ)"
+  },
+{
+  "lesson": "Bài 3",
+  "hanzi": "週末",
+  "pinyin": "zhōu mò",
+  "meaning": "Cuối tuần"
+},
+{
+  "lesson": "Bài 3",
+  "hanzi": "聽",
+  "pinyin": "tīng",
+  "meaning": "Nghe"
+},
+{
+  "lesson": "Bài 3",
+  "hanzi": "音樂",
+  "pinyin": "yīn yuè",
+  "meaning": "Âm nhạc"
+},
+{
+  "lesson": "Bài 3",
+  "hanzi": "運動",
+  "pinyin": "yùn dòng",
+  "meaning": "Thể thao; vận động"
+},
+{
+  "lesson": "Bài 3",
+  "hanzi": "打",
+  "pinyin": "dǎ",
+  "meaning": "Chơi (thể thao); đánh"
+},
+{
+  "lesson": "Bài 3",
+  "hanzi": "網球",
+  "pinyin": "wǎng qiú",
+  "meaning": "Quần vợt"
+},
+{
+  "lesson": "Bài 3",
+  "hanzi": "棒球",
+  "pinyin": "bàng qiú",
+  "meaning": "Bóng chày"
+},
+{
+  "lesson": "Bài 3",
+  "hanzi": "和",
+  "pinyin": "hé",
+  "meaning": "Và"
+},
+{
+  "lesson": "Bài 3",
+  "hanzi": "游泳",
+  "pinyin": "yóu yǒng",
+  "meaning": "Bơi"
+},
+{
+  "lesson": "Bài 3",
+  "hanzi": "常",
+  "pinyin": "cháng",
+  "meaning": "Thường"
+},
+{
+  "lesson": "Bài 3",
+  "hanzi": "籃球",
+  "pinyin": "lán qiú",
+  "meaning": "Bóng rổ"
+},
+{
+  "lesson": "Bài 3",
+  "hanzi": "也",
+  "pinyin": "yě",
+  "meaning": "Cũng"
+},
+{
+  "lesson": "Bài 3",
+  "hanzi": "踢",
+  "pinyin": "tī",
+  "meaning": "Đá (bóng)"
+},
+{
+  "lesson": "Bài 3",
+  "hanzi": "足球",
+  "pinyin": "zú qiú",
+  "meaning": "Bóng đá"
+},
+{
+  "lesson": "Bài 3",
+  "hanzi": "覺得",
+  "pinyin": "jué de",
+  "meaning": "Cảm thấy; cho rằng"
+},
+{
+  "lesson": "Bài 3",
+  "hanzi": "好玩",
+  "pinyin": "hǎo wán",
+  "meaning": "Vui; thú vị"
+},
+{
+  "lesson": "Bài 3",
+  "hanzi": "明天",
+  "pinyin": "míng tiān",
+  "meaning": "Ngày mai"
+},
+{
+  "lesson": "Bài 3",
+  "hanzi": "早上",
+  "pinyin": "zǎo shàng",
+  "meaning": "Buổi sáng"
+},
+{
+  "lesson": "Bài 3",
+  "hanzi": "去",
+  "pinyin": "qù",
+  "meaning": "Đi"
+},
+{
+  "lesson": "Bài 3",
+  "hanzi": "怎麼樣",
+  "pinyin": "zěn me yàng",
+  "meaning": "Thế nào"
+},
+{
+  "lesson": "Bài 3",
+  "hanzi": "啊",
+  "pinyin": "a",
+  "meaning": "À; nhé (trợ từ ngữ khí)"
+},
+{
+  "lesson": "Bài 3",
+  "hanzi": "做什麼",
+  "pinyin": "zuò shén me",
+  "meaning": "Làm gì"
+},
+{
+  "lesson": "Bài 3",
+  "hanzi": "好啊",
+  "pinyin": "hǎo a",
+  "meaning": "Được thôi"
+},
+{
+  "lesson": "Bài 3",
+  "hanzi": "白如玉",
+  "pinyin": "Bái Rúyù",
+  "meaning": "Bạch Như Ngọc (tên người)"
+},
+{
+  "lesson": "Bài 3",
+  "hanzi": "今天",
+  "pinyin": "jīn tiān",
+  "meaning": "Hôm nay"
+},
+{
+  "lesson": "Bài 3",
+  "hanzi": "晚上",
+  "pinyin": "wǎn shàng",
+  "meaning": "Buổi tối"
+},
+{
+  "lesson": "Bài 3",
+  "hanzi": "看",
+  "pinyin": "kàn",
+  "meaning": "Xem; nhìn"
+},
+{
+  "lesson": "Bài 3",
+  "hanzi": "電影",
+  "pinyin": "diàn yǐng",
+  "meaning": "Phim"
+},
+{
+  "lesson": "Bài 3",
+  "hanzi": "妳",
+  "pinyin": "nǐ",
+  "meaning": "Bạn (nữ)"
+},
+{
+  "lesson": "Bài 3",
+  "hanzi": "想",
+  "pinyin": "xiǎng",
+  "meaning": "Muốn"
+},
+{
+  "lesson": "Bài 3",
+  "hanzi": "還是",
+  "pinyin": "hái shì",
+  "meaning": "Hay là"
+},
+{
+  "lesson": "Bài 3",
+  "hanzi": "吧",
+  "pinyin": "ba",
+  "meaning": "Nhé; đi (trợ từ)"
+},
+{
+  "lesson": "Bài 3",
+  "hanzi": "可以",
+  "pinyin": "kě yǐ",
+  "meaning": "Có thể"
+},
+{
+  "lesson": "Bài 3",
+  "hanzi": "學",
+  "pinyin": "xué",
+  "meaning": "Học"
+},
+{
+  "lesson": "Bài 3",
+  "hanzi": "中文",
+  "pinyin": "Zhōng wén",
+  "meaning": "Tiếng Trung"
+},
+{
+  "lesson": "Bài 3",
+  "hanzi": "一起",
+  "pinyin": "yì qǐ",
+  "meaning": "Cùng nhau"
+},
+{
+  "lesson": "Bài 3",
+  "hanzi": "吃",
+  "pinyin": "chī",
+  "meaning": "Ăn"
+},
+{
+  "lesson": "Bài 3",
+  "hanzi": "晚飯",
+  "pinyin": "wǎn fàn",
+  "meaning": "Bữa tối"
+},
+{
+  "lesson": "Bài 3",
+  "hanzi": "菜",
+  "pinyin": "cài",
+  "meaning": "Món ăn; rau"
+},
+{
+  "lesson": "Bài 3",
+  "hanzi": "越南",
+  "pinyin": "Yuènán",
+  "meaning": "Việt Nam"
+},
+{
+  "lesson": "Bài 3",
+  "hanzi": "好不好",
+  "pinyin": "hǎo bù hǎo",
+  "meaning": "Được không?"
+},
+{
+  "lesson": "Bài 4",
+  "hanzi": "一共",
+  "pinyin": "yí gòng",
+  "meaning": "Tổng cộng"
+},
+{
+  "lesson": "Bài 4",
+  "hanzi": "多少",
+  "pinyin": "duō shǎo",
+  "meaning": "Bao nhiêu"
+},
+{
+  "lesson": "Bài 4",
+  "hanzi": "錢",
+  "pinyin": "qián",
+  "meaning": "Tiền"
+},
+{
+  "lesson": "Bài 4",
+  "hanzi": "老闆",
+  "pinyin": "lǎo bǎn",
+  "meaning": "Ông chủ, bà chủ"
+},
+{
+  "lesson": "Bài 4",
+  "hanzi": "買",
+  "pinyin": "mǎi",
+  "meaning": "Mua"
+},
+{
+  "lesson": "Bài 4",
+  "hanzi": "杯",
+  "pinyin": "bēi",
+  "meaning": "Cốc; ly (lượng từ)"
+},
+{
+  "lesson": "Bài 4",
+  "hanzi": "熱",
+  "pinyin": "rè",
+  "meaning": "Nóng"
+},
+{
+  "lesson": "Bài 4",
+  "hanzi": "包子",
+  "pinyin": "bāo zi",
+  "meaning": "Bánh bao"
+},
+{
+  "lesson": "Bài 4",
+  "hanzi": "要",
+  "pinyin": "yào",
+  "meaning": "Muốn; cần"
+},
+{
+  "lesson": "Bài 4",
+  "hanzi": "大",
+  "pinyin": "dà",
+  "meaning": "Lớn"
+},
+{
+  "lesson": "Bài 4",
+  "hanzi": "中",
+  "pinyin": "zhōng",
+  "meaning": "Vừa; trung bình"
+},
+{
+  "lesson": "Bài 4",
+  "hanzi": "小",
+  "pinyin": "xiǎo",
+  "meaning": "Nhỏ"
+},
+{
+  "lesson": "Bài 4",
+  "hanzi": "幫",
+  "pinyin": "bāng",
+  "meaning": "Giúp"
+},
+{
+  "lesson": "Bài 4",
+  "hanzi": "微波",
+  "pinyin": "wēi bō",
+  "meaning": "Hâm bằng lò vi sóng"
+},
+{
+  "lesson": "Bài 4",
+  "hanzi": "百",
+  "pinyin": "bǎi",
+  "meaning": "Trăm"
+},
+{
+  "lesson": "Bài 4",
+  "hanzi": "塊",
+  "pinyin": "kuài",
+  "meaning": "Đồng (khẩu ngữ); miếng (lượng từ)"
+},
+{
+  "lesson": "Bài 4",
+  "hanzi": "好的",
+  "pinyin": "hǎo de",
+  "meaning": "Được; vâng"
+},
+{
+  "lesson": "Bài 4",
+  "hanzi": "外帶",
+  "pinyin": "wài dài",
+  "meaning": "Mang đi"
+},
+{
+  "lesson": "Bài 4",
+  "hanzi": "內用",
+  "pinyin": "nèi yòng",
+  "meaning": "Dùng tại quán"
+},
+{
+  "lesson": "Bài 4",
+  "hanzi": "支",
+  "pinyin": "zhī",
+  "meaning": "Chiếc, cây (lượng từ)"
+},
+{
+  "lesson": "Bài 4",
+  "hanzi": "新",
+  "pinyin": "xīn",
+  "meaning": "Mới"
+},
+{
+  "lesson": "Bài 4",
+  "hanzi": "手機",
+  "pinyin": "shǒu jī",
+  "meaning": "Điện thoại di động"
+},
+{
+  "lesson": "Bài 4",
+  "hanzi": "太",
+  "pinyin": "tài",
+  "meaning": "Quá"
+},
+{
+  "lesson": "Bài 4",
+  "hanzi": "舊",
+  "pinyin": "jiù",
+  "meaning": "Cũ"
+},
+{
+  "lesson": "Bài 4",
+  "hanzi": "了",
+  "pinyin": "le",
+  "meaning": "Trợ từ chỉ sự thay đổi hoặc hoàn thành"
+},
+{
+  "lesson": "Bài 4",
+  "hanzi": "種",
+  "pinyin": "zhǒng",
+  "meaning": "Loại"
+},
+{
+  "lesson": "Bài 4",
+  "hanzi": "能",
+  "pinyin": "néng",
+  "meaning": "Có thể"
+},
+{
+  "lesson": "Bài 4",
+  "hanzi": "上網",
+  "pinyin": "shàng wǎng",
+  "meaning": "Lên mạng"
+},
+{
+  "lesson": "Bài 4",
+  "hanzi": "那",
+  "pinyin": "nà",
+  "meaning": "Đó; kia"
+},
+{
+  "lesson": "Bài 4",
+  "hanzi": "貴",
+  "pinyin": "guì",
+  "meaning": "Đắt"
+},
+{
+  "lesson": "Bài 4",
+  "hanzi": "賣",
+  "pinyin": "mài",
+  "meaning": "Bán"
+},
+{
+  "lesson": "Bài 4",
+  "hanzi": "便宜",
+  "pinyin": "pián yi",
+  "meaning": "Rẻ"
+},
+{
+  "lesson": "Bài 4",
+  "hanzi": "要",
+  "pinyin": "yào",
+  "meaning": "Cần; muốn"
+},
+{
+  "lesson": "Bài 4",
+  "hanzi": "萬",
+  "pinyin": "wàn",
+  "meaning": "Mười nghìn"
+},
+{
+  "lesson": "Bài 4",
+  "hanzi": "千",
+  "pinyin": "qiān",
+  "meaning": "Một nghìn"
+},
+{
+  "lesson": "Bài 4",
+  "hanzi": "為什麼",
+  "pinyin": "wèi shén me",
+  "meaning": "Tại sao"
+}
