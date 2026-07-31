@@ -29,40 +29,36 @@ const remainText = document.getElementById("remain");
 const progressBar = document.getElementById("progressBar");
 const progressText = document.getElementById("progressText");
 
-
 // =====================
 // Đọc vocab.json
 // =====================
 
 fetch("./vocab.json")
-.then(response=>{
+.then(response => {
 
     if(!response.ok){
-
         throw new Error("Không đọc được vocab.json");
-
     }
 
     return response.json();
 
 })
-.then(data=>{
+.then(data => {
 
-    vocab=data;
+    vocab = data;
 
     createWordList();
 
     nextWord();
 
 })
-.catch(err=>{
+.catch(err => {
 
     console.error(err);
 
-    word.textContent="Lỗi tải dữ liệu";
+    word.textContent = "Lỗi tải dữ liệu";
 
 });
-
 
 // =====================
 // Bỏ dấu pinyin
@@ -80,7 +76,6 @@ function removeTone(str){
 
 }
 
-
 // =====================
 // Xáo trộn
 // =====================
@@ -96,7 +91,6 @@ function shuffle(array){
     }
 
 }
-
 
 // =====================
 // Tạo danh sách
@@ -122,7 +116,6 @@ function createWordList(){
 
 }
 
-
 // =====================
 // Thanh tiến độ
 // =====================
@@ -131,8 +124,7 @@ function updateProgress(){
 
     remainText.textContent=remainWords.length;
 
-    progressText.textContent=
-    (total-remainWords.length)+" / "+total+" từ";
+    progressText.textContent=(total-remainWords.length)+" / "+total+" từ";
 
     let percent=0;
 
@@ -146,16 +138,15 @@ function updateProgress(){
 
 }
 
-
 // =====================
-// Hiện từ mới
+// Từ tiếp theo
 // =====================
 
 function nextWord(){
 
     if(remainWords.length===0){
 
-        alert("🎉 Bạn đã học hết!");
+        alert("🎉 Chúc mừng! Bạn đã học hết bài này.");
 
         createWordList();
 
@@ -181,10 +172,11 @@ function nextWord(){
 
     card.classList.remove("flip");
 
+    answer.focus();
+
     updateProgress();
 
 }
-
 
 // =====================
 // Kiểm tra
@@ -194,7 +186,7 @@ function checkAnswer(){
 
     if(answer.value.trim()===""){
 
-        alert("Nhập đáp án trước.");
+        alert("⚠️ Hãy nhập đáp án trước.");
 
         return;
 
@@ -226,9 +218,15 @@ function checkAnswer(){
 
         correctText.textContent=correct;
 
-        result.textContent="✅ Chính xác";
+        result.textContent="✅ Chính xác!";
 
-        result.style.color="green";
+        result.style.color="#16a34a";
+
+        backWord.textContent=current.hanzi;
+        backPinyin.textContent="🔊 "+current.pinyin;
+        backMeaning.textContent="🇻🇳 "+current.meaning;
+
+        card.classList.add("flip");
 
     }else{
 
@@ -236,34 +234,52 @@ function checkAnswer(){
 
         wrongText.textContent=wrong;
 
-        result.textContent="❌ Sai";
+        result.textContent="";
 
-        result.style.color="red";
+        showWrongPopup(current);
 
     }
 
-    backWord.textContent=current.hanzi;
+}
 
-    backPinyin.textContent="🔊 "+current.pinyin;
+// =====================
+// Popup Sai
+// =====================
 
-    backMeaning.textContent="🇻🇳 "+current.meaning;
+function showWrongPopup(word){
 
-    card.classList.add("flip");
+    document.getElementById("popupIcon").innerHTML="😢";
+
+    document.getElementById("popupTitle").innerHTML="Sai rồi bạn ơi!";
+
+    document.getElementById("popupHanzi").textContent=word.hanzi;
+
+    document.getElementById("popupPinyin").textContent=word.pinyin;
+
+    document.getElementById("popupMeaning").textContent=word.meaning;
+
+    document.getElementById("popupMessage").innerHTML=
+    "💪 Đừng nản nhé, học thêm một chút là nhớ ngay!";
+
+    document.getElementById("resultPopup").style.display="flex";
 
 }
 
+function closePopup(){
+
+    document.getElementById("resultPopup").style.display="none";
+
+    answer.focus();
+
+}
 
 // =====================
 // Sự kiện
 // =====================
 
-document
-.getElementById("checkBtn")
-.onclick=checkAnswer;
+document.getElementById("checkBtn").onclick=checkAnswer;
 
-document
-.getElementById("nextBtn")
-.onclick=nextWord;
+document.getElementById("nextBtn").onclick=nextWord;
 
 lessonSelect.onchange=function(){
 
@@ -282,27 +298,3 @@ answer.addEventListener("keydown",function(e){
     }
 
 });
-function showWrongPopup(word){
-
-    document.getElementById("popupIcon").innerHTML="😢";
-
-    document.getElementById("popupTitle").innerHTML="Sai rồi bạn ơi!";
-
-    document.getElementById("popupHanzi").innerHTML=word.hanzi;
-
-    document.getElementById("popupPinyin").innerHTML=word.pinyin;
-
-    document.getElementById("popupMeaning").innerHTML=word.meaning;
-
-    document.getElementById("popupMessage").innerHTML=
-    "💪 Đừng nản nhé, cố lên bạn nhé!";
-
-    document.getElementById("resultPopup").style.display="flex";
-
-}
-
-function closePopup(){
-
-    document.getElementById("resultPopup").style.display="none";
-
-}
