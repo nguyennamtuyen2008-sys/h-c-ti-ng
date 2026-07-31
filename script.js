@@ -297,9 +297,8 @@ lessonSelect.onchange=function(){
 answer.addEventListener("keydown",function(e){
 
     if(e.key==="Enter"){
-
-        checkAnswer();
-
-    }
+    e.preventDefault();
+    checkAnswer();
+}
 
 });
