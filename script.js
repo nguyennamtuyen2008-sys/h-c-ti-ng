@@ -282,3 +282,27 @@ answer.addEventListener("keydown",function(e){
     }
 
 });
+function showWrongPopup(word){
+
+    document.getElementById("popupIcon").innerHTML="😢";
+
+    document.getElementById("popupTitle").innerHTML="Sai rồi bạn ơi!";
+
+    document.getElementById("popupHanzi").innerHTML=word.hanzi;
+
+    document.getElementById("popupPinyin").innerHTML=word.pinyin;
+
+    document.getElementById("popupMeaning").innerHTML=word.meaning;
+
+    document.getElementById("popupMessage").innerHTML=
+    "💪 Đừng nản nhé, cố lên bạn nhé!";
+
+    document.getElementById("resultPopup").style.display="flex";
+
+}
+
+function closePopup(){
+
+    document.getElementById("resultPopup").style.display="none";
+
+}
