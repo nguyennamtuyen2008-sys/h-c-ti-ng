@@ -1054,5 +1054,244 @@
   "hanzi": "不好",
   "pinyin": "bù hǎo",
   "meaning": "Không tốt"
+},
+{
+  "lesson": "Bài 6",
+  "hanzi": "他們",
+  "pinyin": "tā men",
+  "meaning": "Họ"
+},
+{
+  "lesson": "Bài 6",
+  "hanzi": "學校",
+  "pinyin": "xué xiào",
+  "meaning": "Trường học"
+},
+{
+  "lesson": "Bài 6",
+  "hanzi": "在",
+  "pinyin": "zài",
+  "meaning": "Ở; tại"
+},
+{
+  "lesson": "Bài 6",
+  "hanzi": "山上",
+  "pinyin": "shān shàng",
+  "meaning": "Trên núi"
+},
+{
+  "lesson": "Bài 6",
+  "hanzi": "哪裡",
+  "pinyin": "nǎ lǐ",
+  "meaning": "Ở đâu"
+},
+{
+  "lesson": "Bài 6",
+  "hanzi": "遠",
+  "pinyin": "yuǎn",
+  "meaning": "Xa"
+},
+{
+  "lesson": "Bài 6",
+  "hanzi": "那里",
+  "pinyin": "nà lǐ",
+  "meaning": "Ở đó"
+},
+{
+  "lesson": "Bài 6",
+  "hanzi": "風景",
+  "pinyin": "fēng jǐng",
+  "meaning": "Phong cảnh"
+},
+{
+  "lesson": "Bài 6",
+  "hanzi": "美",
+  "pinyin": "měi",
+  "meaning": "Đẹp"
+},
+{
+  "lesson": "Bài 6",
+  "hanzi": "前面",
+  "pinyin": "qián miàn",
+  "meaning": "Phía trước"
+},
+{
+  "lesson": "Bài 6",
+  "hanzi": "海",
+  "pinyin": "hǎi",
+  "meaning": "Biển"
+},
+{
+  "lesson": "Bài 6",
+  "hanzi": "後面",
+  "pinyin": "hòu miàn",
+  "meaning": "Phía sau"
+},
+{
+  "lesson": "Bài 6",
+  "hanzi": "山",
+  "pinyin": "shān",
+  "meaning": "Núi"
+},
+{
+  "lesson": "Bài 6",
+  "hanzi": "真的",
+  "pinyin": "zhēn de",
+  "meaning": "Thật sự"
+},
+{
+  "lesson": "Bài 6",
+  "hanzi": "地方",
+  "pinyin": "dì fāng",
+  "meaning": "Địa điểm; nơi"
+},
+{
+  "lesson": "Bài 6",
+  "hanzi": "現在",
+  "pinyin": "xiàn zài",
+  "meaning": "Bây giờ"
+},
+{
+  "lesson": "Bài 6",
+  "hanzi": "附近",
+  "pinyin": "fù jìn",
+  "meaning": "Gần đây; khu vực lân cận"
+},
+{
+  "lesson": "Bài 6",
+  "hanzi": "樓下",
+  "pinyin": "lóu xià",
+  "meaning": "Tầng dưới"
+},
+{
+  "lesson": "Bài 6",
+  "hanzi": "找",
+  "pinyin": "zhǎo",
+  "meaning": "Tìm; gặp"
+},
+{
+  "lesson": "Bài 6",
+  "hanzi": "朋友",
+  "pinyin": "péng you",
+  "meaning": "Bạn bè"
+},
+{
+  "lesson": "Bài 6",
+  "hanzi": "上課",
+  "pinyin": "shàng kè",
+  "meaning": "Lên lớp; học"
+},
+{
+  "lesson": "Bài 6",
+  "hanzi": "花蓮",
+  "pinyin": "Huālián",
+  "meaning": "Hoa Liên (thành phố ở Đài Loan)"
+},
+{
+  "lesson": "Bài 6",
+  "hanzi": "聽說",
+  "pinyin": "tīng shuō",
+  "meaning": "Nghe nói"
+},
+{
+  "lesson": "Bài 6",
+  "hanzi": "近",
+  "pinyin": "jìn",
+  "meaning": "Gần"
+},
+{
+  "lesson": "Bài 6",
+  "hanzi": "方便",
+  "pinyin": "fāng biàn",
+  "meaning": "Thuận tiện"
+},
+{
+  "lesson": "Bài 6",
+  "hanzi": "這裡",
+  "pinyin": "zhè lǐ",
+  "meaning": "Ở đây"
+},
+{
+  "lesson": "Bài 6",
+  "hanzi": "學生",
+  "pinyin": "xué shēng",
+  "meaning": "Học sinh; sinh viên"
+},
+{
+  "lesson": "Bài 6",
+  "hanzi": "東西",
+  "pinyin": "dōng xi",
+  "meaning": "Đồ vật; đồ đạc"
+},
+{
+  "lesson": "Bài 6",
+  "hanzi": "外面",
+  "pinyin": "wài miàn",
+  "meaning": "Bên ngoài"
+},
+{
+  "lesson": "Bài 6",
+  "hanzi": "裡面",
+  "pinyin": "lǐ miàn",
+  "meaning": "Bên trong"
+},
+{
+  "lesson": "Bài 6",
+  "hanzi": "商店",
+  "pinyin": "shāng diàn",
+  "meaning": "Cửa hàng"
+},
+{
+  "lesson": "Bài 6",
+  "hanzi": "吃飯",
+  "pinyin": "chī fàn",
+  "meaning": "Ăn cơm"
+},
+{
+  "lesson": "Bài 6",
+  "hanzi": "宿舍",
+  "pinyin": "sù shè",
+  "meaning": "Ký túc xá"
+},
+{
+  "lesson": "Bài 6",
+  "hanzi": "樓",
+  "pinyin": "lóu",
+  "meaning": "Tầng; tòa nhà"
+},
+{
+  "lesson": "Bài 6",
+  "hanzi": "棟",
+  "pinyin": "dòng",
+  "meaning": "Tòa (lượng từ cho nhà)"
+},
+{
+  "lesson": "Bài 6",
+  "hanzi": "大樓",
+  "pinyin": "dà lóu",
+  "meaning": "Tòa nhà lớn"
+},
+{
+  "lesson": "Bài 6",
+  "hanzi": "圖書館",
+  "pinyin": "tú shū guǎn",
+  "meaning": "Thư viện"
+},
+{
+  "lesson": "Bài 6",
+  "hanzi": "旁邊",
+  "pinyin": "páng biān",
+  "meaning": "Bên cạnh"
+},
+{
+  "lesson": "Bài 6",
+  "hanzi": "教室",
+  "pinyin": "jiào shì",
+  "meaning": "Phòng học"
+},
+{
+  "lesson": "Bài 6",
+  "hanzi": "游泳池",
+  "pinyin": "yóu yǒng chí",
+  "meaning": "Hồ bơi"
 }
-]
