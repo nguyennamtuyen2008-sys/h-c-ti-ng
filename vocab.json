@@ -2560,5 +2560,719 @@
   "hanzi": "試試看",
   "pinyin": "shì shì kàn",
   "meaning": "Thử xem"
+},
+{
+  "lesson": "Bài 13",
+  "hanzi": "生日",
+  "pinyin": "shēng rì",
+  "meaning": "Sinh nhật"
+},
+{
+  "lesson": "Bài 13",
+  "hanzi": "快樂",
+  "pinyin": "kuài lè",
+  "meaning": "Vui vẻ; hạnh phúc"
+},
+{
+  "lesson": "Bài 13",
+  "hanzi": "回來",
+  "pinyin": "huí lái",
+  "meaning": "Trở về"
+},
+{
+  "lesson": "Bài 13",
+  "hanzi": "啊",
+  "pinyin": "a",
+  "meaning": "À; nhé (trợ từ ngữ khí)"
+},
+{
+  "lesson": "Bài 13",
+  "hanzi": "怎麼",
+  "pinyin": "zěn me",
+  "meaning": "Thế nào; làm sao"
+},
+{
+  "lesson": "Bài 13",
+  "hanzi": "忘",
+  "pinyin": "wàng",
+  "meaning": "Quên"
+},
+{
+  "lesson": "Bài 13",
+  "hanzi": "記得",
+  "pinyin": "jì de",
+  "meaning": "Nhớ"
+},
+{
+  "lesson": "Bài 13",
+  "hanzi": "當然",
+  "pinyin": "dāng rán",
+  "meaning": "Đương nhiên"
+},
+{
+  "lesson": "Bài 13",
+  "hanzi": "語言",
+  "pinyin": "yǔ yán",
+  "meaning": "Ngôn ngữ"
+},
+{
+  "lesson": "Bài 13",
+  "hanzi": "交換",
+  "pinyin": "jiāo huàn",
+  "meaning": "Trao đổi"
+},
+{
+  "lesson": "Bài 13",
+  "hanzi": "那麼",
+  "pinyin": "nà me",
+  "meaning": "Đến thế; như vậy"
+},
+{
+  "lesson": "Bài 13",
+  "hanzi": "熱心",
+  "pinyin": "rè xīn",
+  "meaning": "Nhiệt tình"
+},
+{
+  "lesson": "Bài 13",
+  "hanzi": "西班牙文",
+  "pinyin": "Xī bān yá wén",
+  "meaning": "Tiếng Tây Ban Nha"
+},
+{
+  "lesson": "Bài 13",
+  "hanzi": "一樣",
+  "pinyin": "yí yàng",
+  "meaning": "Giống nhau"
+},
+{
+  "lesson": "Bài 13",
+  "hanzi": "過",
+  "pinyin": "guò",
+  "meaning": "Đón; trải qua"
+},
+{
+  "lesson": "Bài 13",
+  "hanzi": "左右",
+  "pinyin": "zuǒ yòu",
+  "meaning": "Khoảng"
+},
+{
+  "lesson": "Bài 13",
+  "hanzi": "門口",
+  "pinyin": "mén kǒu",
+  "meaning": "Cửa; cổng"
+},
+{
+  "lesson": "Bài 13",
+  "hanzi": "西班牙",
+  "pinyin": "Xī bān yá",
+  "meaning": "Tây Ban Nha"
+},
+{
+  "lesson": "Bài 13",
+  "hanzi": "生日快樂",
+  "pinyin": "shēng rì kuài lè",
+  "meaning": "Chúc mừng sinh nhật"
+},
+{
+  "lesson": "Bài 13",
+  "hanzi": "我就是",
+  "pinyin": "wǒ jiù shì",
+  "meaning": "Chính là tôi"
+},
+{
+  "lesson": "Bài 13",
+  "hanzi": "好久不見",
+  "pinyin": "hǎo jiǔ bú jiàn",
+  "meaning": "Lâu rồi không gặp"
+},
+{
+  "lesson": "Bài 13",
+  "hanzi": "不必客氣",
+  "pinyin": "bú bì kè qi",
+  "meaning": "Không cần khách sáo"
+},
+{
+  "lesson": "Bài 13",
+  "hanzi": "太客氣",
+  "pinyin": "tài kè qi",
+  "meaning": "Khách sáo quá"
+},
+{
+  "lesson": "Bài 13",
+  "hanzi": "禮物",
+  "pinyin": "lǐ wù",
+  "meaning": "Quà tặng"
+},
+{
+  "lesson": "Bài 13",
+  "hanzi": "今年",
+  "pinyin": "jīn nián",
+  "meaning": "Năm nay"
+},
+{
+  "lesson": "Bài 13",
+  "hanzi": "訂",
+  "pinyin": "dìng",
+  "meaning": "Đặt (mua, đặt bàn...)"
+},
+{
+  "lesson": "Bài 13",
+  "hanzi": "了",
+  "pinyin": "le",
+  "meaning": "Đã; rồi (trợ từ)"
+},
+{
+  "lesson": "Bài 13",
+  "hanzi": "豬腳",
+  "pinyin": "zhū jiǎo",
+  "meaning": "Giò heo"
+},
+{
+  "lesson": "Bài 13",
+  "hanzi": "麵線",
+  "pinyin": "miàn xiàn",
+  "meaning": "Mì sợi"
+},
+{
+  "lesson": "Bài 13",
+  "hanzi": "蛋",
+  "pinyin": "dàn",
+  "meaning": "Trứng"
+},
+{
+  "lesson": "Bài 13",
+  "hanzi": "一點",
+  "pinyin": "yì diǎn",
+  "meaning": "Một chút"
+},
+{
+  "lesson": "Bài 13",
+  "hanzi": "傳統",
+  "pinyin": "chuán tǒng",
+  "meaning": "Truyền thống"
+},
+{
+  "lesson": "Bài 13",
+  "hanzi": "年輕",
+  "pinyin": "nián qīng",
+  "meaning": "Trẻ; trẻ tuổi"
+},
+{
+  "lesson": "Bài 13",
+  "hanzi": "蛋糕",
+  "pinyin": "dàn gāo",
+  "meaning": "Bánh kem"
+},
+{
+  "lesson": "Bài 13",
+  "hanzi": "對",
+  "pinyin": "duì",
+  "meaning": "Đúng"
+},
+{
+  "lesson": "Bài 13",
+  "hanzi": "祝",
+  "pinyin": "zhù",
+  "meaning": "Chúc"
+},
+{
+  "lesson": "Bài 13",
+  "hanzi": "哪裡，哪裡",
+  "pinyin": "nǎ lǐ, nǎ lǐ",
+  "meaning": "Đâu có, quá khen rồi"
+},
+{
+  "lesson": "Bài 13",
+  "hanzi": "大部分",
+  "pinyin": "dà bù fèn",
+  "meaning": "Phần lớn"
+},
+{
+  "lesson": "Bài 13",
+  "hanzi": "萬事如意",
+  "pinyin": "wàn shì rú yì",
+  "meaning": "Vạn sự như ý"
+},
+{
+  "lesson": "Bài 13",
+  "hanzi": "心想事成",
+  "pinyin": "xīn xiǎng shì chéng",
+  "meaning": "Cầu được ước thấy"
+},
+{
+  "lesson": "Bài 14",
+  "hanzi": "天氣",
+  "pinyin": "tiān qì",
+  "meaning": "Thời tiết"
+},
+{
+  "lesson": "Bài 14",
+  "hanzi": "冷",
+  "pinyin": "lěng",
+  "meaning": "Lạnh"
+},
+{
+  "lesson": "Bài 14",
+  "hanzi": "風",
+  "pinyin": "fēng",
+  "meaning": "Gió"
+},
+{
+  "lesson": "Bài 14",
+  "hanzi": "滑雪",
+  "pinyin": "huá xuě",
+  "meaning": "Trượt tuyết"
+},
+{
+  "lesson": "Bài 14",
+  "hanzi": "春天",
+  "pinyin": "chūn tiān",
+  "meaning": "Mùa xuân"
+},
+{
+  "lesson": "Bài 14",
+  "hanzi": "想",
+  "pinyin": "xiǎng",
+  "meaning": "Muốn; nghĩ"
+},
+{
+  "lesson": "Bài 14",
+  "hanzi": "新年",
+  "pinyin": "xīn nián",
+  "meaning": "Năm mới"
+},
+{
+  "lesson": "Bài 14",
+  "hanzi": "快",
+  "pinyin": "kuài",
+  "meaning": "Nhanh"
+},
+{
+  "lesson": "Bài 14",
+  "hanzi": "父母",
+  "pinyin": "fù mǔ",
+  "meaning": "Bố mẹ"
+},
+{
+  "lesson": "Bài 14",
+  "hanzi": "冬天",
+  "pinyin": "dōng tiān",
+  "meaning": "Mùa đông"
+},
+{
+  "lesson": "Bài 14",
+  "hanzi": "明年",
+  "pinyin": "míng nián",
+  "meaning": "Năm sau"
+},
+{
+  "lesson": "Bài 14",
+  "hanzi": "秋天",
+  "pinyin": "qiū tiān",
+  "meaning": "Mùa thu"
+},
+{
+  "lesson": "Bài 14",
+  "hanzi": "紅葉",
+  "pinyin": "hóng yè",
+  "meaning": "Lá đỏ"
+},
+{
+  "lesson": "Bài 14",
+  "hanzi": "只",
+  "pinyin": "zhǐ",
+  "meaning": "Chỉ"
+},
+{
+  "lesson": "Bài 14",
+  "hanzi": "玉山",
+  "pinyin": "Yù shān",
+  "meaning": "Núi Ngọc Sơn (Yushan)"
+},
+{
+  "lesson": "Bài 14",
+  "hanzi": "紐約",
+  "pinyin": "Niǔ yuē",
+  "meaning": "New York"
+},
+{
+  "lesson": "Bài 14",
+  "hanzi": "下雪",
+  "pinyin": "xià xuě",
+  "meaning": "Có tuyết rơi"
+},
+{
+  "lesson": "Bài 14",
+  "hanzi": "十二月底",
+  "pinyin": "shí èr yuè dǐ",
+  "meaning": "Cuối tháng 12"
+},
+{
+  "lesson": "Bài 14",
+  "hanzi": "雨",
+  "pinyin": "yǔ",
+  "meaning": "Mưa"
+},
+{
+  "lesson": "Bài 14",
+  "hanzi": "傘",
+  "pinyin": "sǎn",
+  "meaning": "Ô; dù"
+},
+{
+  "lesson": "Bài 14",
+  "hanzi": "颱風",
+  "pinyin": "tái fēng",
+  "meaning": "Bão"
+},
+{
+  "lesson": "Bài 14",
+  "hanzi": "要",
+  "pinyin": "yào",
+  "meaning": "Sắp; sẽ; cần"
+},
+{
+  "lesson": "Bài 14",
+  "hanzi": "夏天",
+  "pinyin": "xià tiān",
+  "meaning": "Mùa hè"
+},
+{
+  "lesson": "Bài 14",
+  "hanzi": "濕",
+  "pinyin": "shī",
+  "meaning": "Ẩm ướt"
+},
+{
+  "lesson": "Bài 14",
+  "hanzi": "討厭",
+  "pinyin": "tǎo yàn",
+  "meaning": "Ghét; đáng ghét"
+},
+{
+  "lesson": "Bài 14",
+  "hanzi": "新聞",
+  "pinyin": "xīn wén",
+  "meaning": "Tin tức"
+},
+{
+  "lesson": "Bài 14",
+  "hanzi": "更",
+  "pinyin": "gèng",
+  "meaning": "Càng; hơn nữa"
+},
+{
+  "lesson": "Bài 14",
+  "hanzi": "大家",
+  "pinyin": "dà jiā",
+  "meaning": "Mọi người"
+},
+{
+  "lesson": "Bài 14",
+  "hanzi": "小心",
+  "pinyin": "xiǎo xīn",
+  "meaning": "Cẩn thận"
+},
+{
+  "lesson": "Bài 14",
+  "hanzi": "可怕",
+  "pinyin": "kě pà",
+  "meaning": "Đáng sợ"
+},
+{
+  "lesson": "Bài 14",
+  "hanzi": "停",
+  "pinyin": "tíng",
+  "meaning": "Dừng; ngừng"
+},
+{
+  "lesson": "Bài 14",
+  "hanzi": "下雨",
+  "pinyin": "xià yǔ",
+  "meaning": "Mưa; trời mưa"
+},
+{
+  "lesson": "Bài 14",
+  "hanzi": "這次",
+  "pinyin": "zhè cì",
+  "meaning": "Lần này"
+},
+{
+  "lesson": "Bài 14",
+  "hanzi": "上次",
+  "pinyin": "shàng cì",
+  "meaning": "Lần trước"
+},
+{
+  "lesson": "Bài 14",
+  "hanzi": "慢走",
+  "pinyin": "màn zǒu",
+  "meaning": "Đi cẩn thận (lời chào khi tiễn khách)"
+},
+{
+  "lesson": "Bài 15",
+  "hanzi": "醫生",
+  "pinyin": "yī shēng",
+  "meaning": "Bác sĩ"
+},
+{
+  "lesson": "Bài 15",
+  "hanzi": "一直",
+  "pinyin": "yì zhí",
+  "meaning": "Liên tục; mãi"
+},
+{
+  "lesson": "Bài 15",
+  "hanzi": "流",
+  "pinyin": "liú",
+  "meaning": "Chảy"
+},
+{
+  "lesson": "Bài 15",
+  "hanzi": "鼻水",
+  "pinyin": "bí shuǐ",
+  "meaning": "Nước mũi"
+},
+{
+  "lesson": "Bài 15",
+  "hanzi": "頭",
+  "pinyin": "tóu",
+  "meaning": "Đầu"
+},
+{
+  "lesson": "Bài 15",
+  "hanzi": "痛",
+  "pinyin": "tòng",
+  "meaning": "Đau"
+},
+{
+  "lesson": "Bài 15",
+  "hanzi": "胃口",
+  "pinyin": "wèi kǒu",
+  "meaning": "Khẩu vị; sự thèm ăn"
+},
+{
+  "lesson": "Bài 15",
+  "hanzi": "差",
+  "pinyin": "chà",
+  "meaning": "Kém"
+},
+{
+  "lesson": "Bài 15",
+  "hanzi": "喉嚨",
+  "pinyin": "hóu lóng",
+  "meaning": "Cổ họng"
+},
+{
+  "lesson": "Bài 15",
+  "hanzi": "發炎",
+  "pinyin": "fā yán",
+  "meaning": "Viêm"
+},
+{
+  "lesson": "Bài 15",
+  "hanzi": "生病",
+  "pinyin": "shēng bìng",
+  "meaning": "Bị bệnh; ốm"
+},
+{
+  "lesson": "Bài 15",
+  "hanzi": "發燒",
+  "pinyin": "fā shāo",
+  "meaning": "Sốt"
+},
+{
+  "lesson": "Bài 15",
+  "hanzi": "感冒",
+  "pinyin": "gǎn mào",
+  "meaning": "Cảm cúm"
+},
+{
+  "lesson": "Bài 15",
+  "hanzi": "藥",
+  "pinyin": "yào",
+  "meaning": "Thuốc"
+},
+{
+  "lesson": "Bài 15",
+  "hanzi": "藥局",
+  "pinyin": "yào jú",
+  "meaning": "Hiệu thuốc"
+},
+{
+  "lesson": "Bài 15",
+  "hanzi": "拿",
+  "pinyin": "ná",
+  "meaning": "Cầm; lấy"
+},
+{
+  "lesson": "Bài 15",
+  "hanzi": "把",
+  "pinyin": "bǎ",
+  "meaning": "Cầm; nắm; giới từ 'đem'"
+},
+{
+  "lesson": "Bài 15",
+  "hanzi": "水",
+  "pinyin": "shuǐ",
+  "meaning": "Nước"
+},
+{
+  "lesson": "Bài 15",
+  "hanzi": "休息",
+  "pinyin": "xiū xí",
+  "meaning": "Nghỉ ngơi"
+},
+{
+  "lesson": "Bài 15",
+  "hanzi": "睡覺",
+  "pinyin": "shuì jiào",
+  "meaning": "Đi ngủ; ngủ"
+},
+{
+  "lesson": "Bài 15",
+  "hanzi": "早一點",
+  "pinyin": "zǎo yì diǎn",
+  "meaning": "Sớm một chút"
+},
+{
+  "lesson": "Bài 15",
+  "hanzi": "臉色",
+  "pinyin": "liǎn sè",
+  "meaning": "Sắc mặt"
+},
+{
+  "lesson": "Bài 15",
+  "hanzi": "難看",
+  "pinyin": "nán kàn",
+  "meaning": "Xấu; trông không khỏe"
+},
+{
+  "lesson": "Bài 15",
+  "hanzi": "肚子",
+  "pinyin": "dù zi",
+  "meaning": "Bụng"
+},
+{
+  "lesson": "Bài 15",
+  "hanzi": "吐",
+  "pinyin": "tù",
+  "meaning": "Nôn"
+},
+{
+  "lesson": "Bài 15",
+  "hanzi": "幾",
+  "pinyin": "jǐ",
+  "meaning": "Mấy"
+},
+{
+  "lesson": "Bài 15",
+  "hanzi": "次",
+  "pinyin": "cì",
+  "meaning": "Lần (lượng từ)"
+},
+{
+  "lesson": "Bài 15",
+  "hanzi": "陪",
+  "pinyin": "péi",
+  "meaning": "Đi cùng; ở cùng"
+},
+{
+  "lesson": "Bài 15",
+  "hanzi": "看病",
+  "pinyin": "kàn bìng",
+  "meaning": "Khám bệnh"
+},
+{
+  "lesson": "Bài 15",
+  "hanzi": "健康",
+  "pinyin": "jiàn kāng",
+  "meaning": "Sức khỏe; khỏe mạnh"
+},
+{
+  "lesson": "Bài 15",
+  "hanzi": "保險",
+  "pinyin": "bǎo xiǎn",
+  "meaning": "Bảo hiểm"
+},
+{
+  "lesson": "Bài 15",
+  "hanzi": "跟",
+  "pinyin": "gēn",
+  "meaning": "Với; cùng với"
+},
+{
+  "lesson": "Bài 15",
+  "hanzi": "油",
+  "pinyin": "yóu",
+  "meaning": "Dầu; dầu mỡ"
+},
+{
+  "lesson": "Bài 15",
+  "hanzi": "冰",
+  "pinyin": "bīng",
+  "meaning": "Đá; lạnh"
+},
+{
+  "lesson": "Bài 15",
+  "hanzi": "別",
+  "pinyin": "bié",
+  "meaning": "Đừng"
+},
+{
+  "lesson": "Bài 15",
+  "hanzi": "關心",
+  "pinyin": "guān xīn",
+  "meaning": "Quan tâm"
+},
+{
+  "lesson": "Bài 15",
+  "hanzi": "包",
+  "pinyin": "bāo",
+  "meaning": "Gói; bọc"
+},
+{
+  "lesson": "Bài 15",
+  "hanzi": "睡",
+  "pinyin": "shuì",
+  "meaning": "Ngủ"
+},
+{
+  "lesson": "Bài 15",
+  "hanzi": "小時",
+  "pinyin": "xiǎo shí",
+  "meaning": "Giờ; tiếng (đơn vị thời gian)"
+},
+{
+  "lesson": "Bài 15",
+  "hanzi": "怎麼了",
+  "pinyin": "zěn me le",
+  "meaning": "Sao vậy?"
+},
+{
+  "lesson": "Bài 15",
+  "hanzi": "不用了",
+  "pinyin": "bú yòng le",
+  "meaning": "Không cần nữa"
+},
+{
+  "lesson": "Bài 15",
+  "hanzi": "健康中心",
+  "pinyin": "jiàn kāng zhōng xīn",
+  "meaning": "Trung tâm y tế"
+},
+{
+  "lesson": "Bài 15",
+  "hanzi": "回家",
+  "pinyin": "huí jiā",
+  "meaning": "Về nhà"
+},
+{
+  "lesson": "Bài 15",
+  "hanzi": "最好",
+  "pinyin": "zuì hǎo",
+  "meaning": "Tốt nhất"
 }
 ]
