@@ -224,12 +224,14 @@ function checkAnswer(){
 
         card.classList.add("flip");
 
-        // Sau 1 giây tự chuyển sang từ mới
-        setTimeout(function(){
+setTimeout(function () {
+    card.classList.remove("flip");
 
-            nextWord();
+    setTimeout(function () {
+        nextWord();
+    }, 250);
 
-        },1000);
+}, 2000);
 
     }else{
 
