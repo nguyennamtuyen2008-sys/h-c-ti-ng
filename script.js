@@ -192,64 +192,52 @@ function checkAnswer(){
 
     }
 
-    let input=removeTone(answer.value);
+    let input = removeTone(answer.value);
 
-    let hanzi=current.hanzi;
+    let hanzi = current.hanzi;
 
-    let pinyin=removeTone(current.pinyin);
+    let pinyin = removeTone(current.pinyin);
 
-    let ok=false;
+    let ok = false;
 
-    if(answer.value.trim()===hanzi){
-
-        ok=true;
-
+    // Nhập đúng chữ Hán
+    if(answer.value.trim() === hanzi){
+        ok = true;
     }
 
-    if(input===pinyin){
-
-        ok=true;
-
+    // Hoặc đúng pinyin
+    if(input === pinyin){
+        ok = true;
     }
 
-  if(ok){
+    if(ok){
 
-    correct++;
+        correct++;
+        correctText.textContent = correct;
 
-    correctText.textContent=correct;
+        result.textContent = "✅ Chính xác!";
+        result.style.color = "#16a34a";
 
-    result.textContent="✅ Chính xác!";
+        backWord.textContent = current.hanzi;
+        backPinyin.textContent = "🔊 " + current.pinyin;
+        backMeaning.textContent = "🇻🇳 " + current.meaning;
 
-    result.style.color="#16a34a";
+        card.classList.add("flip");
 
-    backWord.textContent=current.hanzi;
-    backPinyin.textContent="🔊 " + current.pinyin;
-    backMeaning.textContent="🇻🇳 " + current.meaning;
+        // Sau 1 giây tự chuyển sang từ mới
+        setTimeout(function(){
 
-    card.classList.add("flip");
+            nextWord();
 
-    // Sau 0.8 giây tự chuyển sang từ mới
-    setTimeout(() => {
-        nextWord();
-    }, 800);
+        },1000);
 
-}else{
-
-    wrong++;
-
-    wrongText.textContent=wrong;
-
-    result.textContent="";
-
-    showWrongPopup(current);
-
-}
+    }else{
 
         wrong++;
+        wrongText.textContent = wrong;
 
-        wrongText.textContent=wrong;
-
-        result.textContent="";
+        result.textContent = "";
+        result.style.color = "red";
 
         showWrongPopup(current);
 
