@@ -212,23 +212,38 @@ function checkAnswer(){
 
     }
 
-    if(ok){
+  if(ok){
 
-        correct++;
+    correct++;
 
-        correctText.textContent=correct;
+    correctText.textContent=correct;
 
-        result.textContent="✅ Chính xác!";
+    result.textContent="✅ Chính xác!";
 
-        result.style.color="#16a34a";
+    result.style.color="#16a34a";
 
-        backWord.textContent=current.hanzi;
-        backPinyin.textContent="🔊 "+current.pinyin;
-        backMeaning.textContent="🇻🇳 "+current.meaning;
+    backWord.textContent=current.hanzi;
+    backPinyin.textContent="🔊 " + current.pinyin;
+    backMeaning.textContent="🇻🇳 " + current.meaning;
 
-        card.classList.add("flip");
+    card.classList.add("flip");
 
-    }else{
+    // Sau 0.8 giây tự chuyển sang từ mới
+    setTimeout(() => {
+        nextWord();
+    }, 800);
+
+}else{
+
+    wrong++;
+
+    wrongText.textContent=wrong;
+
+    result.textContent="";
+
+    showWrongPopup(current);
+
+}
 
         wrong++;
 
