@@ -79,7 +79,7 @@ function loadPart(part){
         if(vocab.length > 0){
             nextWord();
         }else{
-            showEmptyPart2();
+            showNoWords();
         }
     })
     .catch(err => {
@@ -96,19 +96,19 @@ function loadPart(part){
     });
 }
 
-function showEmptyPart2(){
+function showNoWords(){
     current = null;
     remainWords = [];
     updateProgress();
 
-    lesson.textContent = "Phần 2";
-    word.textContent = "🚧";
-    result.textContent = "Phần 2 đã tạo — chờ thêm từ vựng";
+    lesson.textContent = currentPart === 2 ? "Phần 2" : "Phần 1";
+    word.textContent = "📚";
+    result.textContent = "Không có từ vựng trong lựa chọn này.";
     result.style.color = "#2563eb";
 
     backWord.textContent = "";
     backPinyin.textContent = "";
-    backMeaning.textContent = "Khi bạn gửi từ vựng Tập 2, dữ liệu sẽ được thêm vào đây.";
+    backMeaning.textContent = "Hãy chọn một bài khác hoặc kiểm tra dữ liệu từ vựng.";
 
     answer.value = "";
     answer.disabled = true;
@@ -116,6 +116,7 @@ function showEmptyPart2(){
     document.getElementById("nextBtn").disabled = true;
     card.classList.remove("flip");
 }
+
 
 // =====================
 // Chọn bài
@@ -135,7 +136,7 @@ lessonSelect.addEventListener("change", function(){
     if(remainWords.length > 0){
         nextWord();
     }else{
-        showEmptyPart2();
+        showNoWords();
     }
 });
 
@@ -201,7 +202,7 @@ function nextWord(){
             alert("🎉 Chúc mừng! Bạn đã học hết bài này.");
             createWordList();
         }else{
-            showEmptyPart2();
+            showNoWords();
             return;
         }
     }
