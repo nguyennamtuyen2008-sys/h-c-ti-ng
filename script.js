@@ -309,3 +309,198 @@ function closePopup(){
     document.getElementById("resultPopup").style.display = "none";
     answer.focus();
 }
+
+// =====================
+// Chế độ luyện ngữ pháp
+// =====================
+let grammarData = [];
+let grammarRemain = [];
+let grammarCurrent = null;
+let grammarSelected = [];
+let grammarTotal = 0;
+let grammarCorrect = 0;
+let grammarWrong = 0;
+let grammarLoaded = false;
+
+const vocabPanel = document.getElementById('vocabPanel');
+const grammarPanel = document.getElementById('grammarPanel');
+const vocabModeBtn = document.getElementById('vocabModeBtn');
+const grammarModeBtn = document.getElementById('grammarModeBtn');
+const grammarLessonSelect = document.getElementById('grammarLessonSelect');
+const wordBank = document.getElementById('wordBank');
+const sentenceAnswer = document.getElementById('sentenceAnswer');
+const grammarLesson = document.getElementById('grammarLesson');
+const grammarResult = document.getElementById('grammarResult');
+const grammarProgressBar = document.getElementById('grammarProgressBar');
+const grammarProgressText = document.getElementById('grammarProgressText');
+const grammarCorrectText = document.getElementById('grammarCorrect');
+const grammarWrongText = document.getElementById('grammarWrong');
+const grammarRemainText = document.getElementById('grammarRemain');
+
+function showMode(mode){
+    const grammar = mode === 'grammar';
+    vocabPanel.style.display = grammar ? 'none' : 'block';
+    grammarPanel.style.display = grammar ? 'block' : 'none';
+    vocabModeBtn.classList.toggle('active', !grammar);
+    grammarModeBtn.classList.toggle('active', grammar);
+
+    if(grammar && !grammarLoaded){
+        loadGrammar();
+    }
+}
+
+function loadGrammar(){
+    fetch('./grammar.json')
+        .then(response => {
+            if(!response.ok) throw new Error('Không đọc được grammar.json');
+            return response.json();
+        })
+        .then(data => {
+            grammarData = Array.isArray(data) ? data : [];
+            grammarLoaded = true;
+            resetGrammarScore();
+            createGrammarList();
+            nextGrammar();
+        })
+        .catch(err => {
+            console.error(err);
+            grammarResult.textContent = '⚠️ Không tải được dữ liệu ngữ pháp.';
+            grammarResult.style.color = '#dc2626';
+        });
+}
+
+grammarLessonSelect.addEventListener('change', function(){
+    resetGrammarScore();
+    createGrammarList();
+    nextGrammar();
+});
+
+document.getElementById('grammarCheckBtn').addEventListener('click', checkGrammar);
+document.getElementById('grammarClearBtn').addEventListener('click', clearGrammarAnswer);
+document.getElementById('grammarNextBtn').addEventListener('click', nextGrammar);
+
+function resetGrammarScore(){
+    grammarCorrect = 0;
+    grammarWrong = 0;
+    grammarCorrectText.textContent = '0';
+    grammarWrongText.textContent = '0';
+}
+
+function createGrammarList(){
+    const selected = grammarLessonSelect.value;
+    grammarRemain = selected === 'all'
+        ? [...grammarData]
+        : grammarData.filter(q => q.lesson === 'Bài ' + selected);
+
+    grammarTotal = grammarRemain.length;
+    shuffle(grammarRemain);
+    updateGrammarProgress();
+}
+
+function nextGrammar(){
+    if(grammarRemain.length === 0){
+        if(grammarTotal > 0){
+            grammarResult.textContent = '🎉 Bạn đã hoàn thành phần câu này!';
+            grammarResult.style.color = '#16a34a';
+            grammarCurrent = null;
+            wordBank.innerHTML = '';
+            sentenceAnswer.innerHTML = '';
+            return;
+        }
+        grammarResult.textContent = 'Chưa có câu cho bài này.';
+        grammarResult.style.color = '#2563eb';
+        return;
+    }
+
+    grammarCurrent = grammarRemain.shift();
+    grammarSelected = [];
+    grammarLesson.textContent = grammarCurrent.lesson;
+    grammarResult.textContent = '';
+    renderGrammarQuestion();
+    updateGrammarProgress();
+}
+
+function renderGrammarQuestion(){
+    wordBank.innerHTML = '';
+    sentenceAnswer.innerHTML = '';
+
+    const shuffledWords = [...grammarCurrent.words];
+    shuffle(shuffledWords);
+
+    shuffledWords.forEach((token, index) => {
+        const btn = document.createElement('button');
+        btn.type = 'button';
+        btn.className = 'grammarWord';
+        btn.textContent = token;
+        btn.dataset.token = token;
+        btn.dataset.index = String(index);
+        btn.addEventListener('click', () => selectGrammarWord(btn));
+        wordBank.appendChild(btn);
+    });
+}
+
+function selectGrammarWord(button){
+    if(!grammarCurrent) return;
+    if(button.disabled) return;
+
+    button.disabled = true;
+    button.classList.add('answerWord');
+    grammarSelected.push(button.dataset.token);
+
+    const answerBtn = document.createElement('button');
+    answerBtn.type = 'button';
+    answerBtn.className = 'grammarWord answerWord';
+    answerBtn.textContent = button.dataset.token;
+    answerBtn.addEventListener('click', () => {
+        const index = grammarSelected.indexOf(button.dataset.token);
+        if(index !== -1) grammarSelected.splice(index, 1);
+        button.disabled = false;
+        button.classList.remove('answerWord');
+        answerBtn.remove();
+    });
+    sentenceAnswer.appendChild(answerBtn);
+}
+
+function clearGrammarAnswer(){
+    grammarSelected = [];
+    document.querySelectorAll('#wordBank .grammarWord').forEach(btn => {
+        btn.disabled = false;
+        btn.classList.remove('answerWord');
+    });
+    sentenceAnswer.innerHTML = '';
+    grammarResult.textContent = '';
+}
+
+function checkGrammar(){
+    if(!grammarCurrent) return;
+
+    if(grammarSelected.length === 0){
+        grammarResult.textContent = '⚠️ Hãy chọn các từ trước.';
+        grammarResult.style.color = '#d97706';
+        return;
+    }
+
+    const correctAnswer = grammarCurrent.answer.join('');
+    const userAnswer = grammarSelected.join('');
+
+    if(userAnswer === correctAnswer && grammarSelected.length === grammarCurrent.answer.length){
+        grammarCorrect++;
+        grammarCorrectText.textContent = grammarCorrect;
+        grammarResult.innerHTML = '✅ Chính xác!<br><span>' + grammarCurrent.answer.join('') + '</span>' +
+            (grammarCurrent.meaning ? '<br><small>🇻🇳 ' + grammarCurrent.meaning + '</small>' : '');
+        grammarResult.style.color = '#16a34a';
+    }else{
+        grammarWrong++;
+        grammarWrongText.textContent = grammarWrong;
+        grammarResult.innerHTML = '❌ Chưa đúng!<br>Đáp án: <strong>' + grammarCurrent.answer.join('') +
+            '</strong><br><small>🇻🇳 ' + grammarCurrent.meaning + '</small>';
+        grammarResult.style.color = '#dc2626';
+    }
+}
+
+function updateGrammarProgress(){
+    const done = grammarTotal - grammarRemain.length;
+    grammarRemainText.textContent = grammarRemain.length;
+    grammarProgressText.textContent = done + ' / ' + grammarTotal + ' câu';
+    grammarProgressBar.style.width = grammarTotal > 0 ? ((done / grammarTotal) * 100) + '%' : '0%';
+}

@@ -410,3 +410,75 @@ button:disabled{
     cursor:not-allowed;
     transform:none !important;
 }
+
+/* ================= CHẾ ĐỘ TỪ VỰNG / NGỮ PHÁP ================= */
+.modeSwitcher{
+    display:flex;
+    gap:10px;
+    margin-bottom:15px;
+}
+.modeBtn{
+    flex:1;
+    padding:13px 10px;
+    border:2px solid transparent;
+    border-radius:12px;
+    background:#e5e7eb;
+    color:#374151;
+    font-weight:700;
+    cursor:pointer;
+}
+.modeBtn.active{
+    background:#2563eb;
+    color:#fff;
+    border-color:#1d4ed8;
+}
+.grammarHeader{text-align:center;margin-bottom:18px}
+.grammarHeader h2{margin:8px 0 5px;color:#2563eb}
+.grammarHeader p{margin:0;color:#6b7280;line-height:1.5}
+.grammarProgress{margin:15px 0 20px}
+.grammarCard{
+    background:#fff;
+    border-radius:18px;
+    padding:22px;
+    box-shadow:0 8px 25px rgba(0,0,0,.08);
+}
+.grammarCard h3{text-align:center;margin:10px 0 18px}
+.wordBank,.sentenceAnswer{
+    min-height:58px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:10px;
+    padding:14px;
+    border-radius:14px;
+    background:#f3f4f6;
+    margin-bottom:14px;
+}
+.sentenceAnswer{background:#eff6ff;border:2px dashed #93c5fd}
+.grammarWord{
+    border:0;
+    border-radius:10px;
+    padding:10px 14px;
+    background:#fff;
+    box-shadow:0 2px 8px rgba(0,0,0,.1);
+    cursor:pointer;
+    font-size:17px;
+    color:#111827;
+}
+.grammarWord:hover{transform:translateY(-2px)}
+.answerWord{background:#dbeafe}
+.answerLabel{font-weight:700;margin-bottom:7px}
+.grammarButtons{display:flex;gap:9px;flex-wrap:wrap;justify-content:center;margin:14px 0}
+.grammarButtons button{border:0;border-radius:10px;padding:11px 15px;cursor:pointer;font-weight:700}
+#grammarCheckBtn{background:#16a34a;color:#fff}
+#grammarClearBtn{background:#e5e7eb;color:#374151}
+#grammarNextBtn{background:#2563eb;color:#fff}
+.grammarResult{text-align:center;min-height:50px;font-size:17px;font-weight:700;line-height:1.6}
+.grammarScore{display:flex;gap:10px;margin-top:15px}
+.grammarScore .box{flex:1;text-align:center;background:#f9fafb;border-radius:12px;padding:10px}
+.grammarScore h2{margin:5px 0 0}
+@media(max-width:600px){
+    .grammarCard{padding:14px}
+    .grammarWord{font-size:16px;padding:9px 12px}
+    .grammarButtons button{flex:1}
+}

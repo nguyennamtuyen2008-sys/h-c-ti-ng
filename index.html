@@ -15,6 +15,12 @@
 
     <h1>📚 Học từ vựng tiếng Trung cùng Tuyên nha</h1>
 
+    <div class="modeSwitcher">
+        <button id="vocabModeBtn" class="modeBtn active" type="button" onclick="showMode('vocab')">📚 Từ vựng</button>
+        <button id="grammarModeBtn" class="modeBtn" type="button" onclick="showMode('grammar')">🧩 Luyện ngữ pháp</button>
+    </div>
+
+    <div id="vocabPanel">
     <div class="partSwitcher">
         <button id="part1Btn" class="partBtn active" type="button" onclick="loadPart(1)">📕 Phần 1</button>
         <button id="part2Btn" class="partBtn" type="button" onclick="loadPart(2)">📗 Phần 2</button>
@@ -145,6 +151,47 @@
         </div>
 
     </div>
+    </div> <!-- /vocabPanel -->
+
+    <section id="grammarPanel" class="grammarPanel" style="display:none;">
+        <div class="grammarHeader">
+            <h2>🧩 Luyện ngữ pháp</h2>
+            <p>Sắp xếp các từ bị xáo trộn thành câu đúng theo cấu trúc của Giáo trình Đương Đại Tập 1.</p>
+        </div>
+
+        <select id="grammarLessonSelect">
+            <option value="all">📖 Tất cả bài</option>
+            <option value="1">Bài 1</option><option value="2">Bài 2</option><option value="3">Bài 3</option>
+            <option value="4">Bài 4</option><option value="5">Bài 5</option><option value="6">Bài 6</option>
+            <option value="7">Bài 7</option><option value="8">Bài 8</option><option value="9">Bài 9</option>
+            <option value="10">Bài 10</option><option value="11">Bài 11</option><option value="12">Bài 12</option>
+            <option value="13">Bài 13</option><option value="14">Bài 14</option><option value="15">Bài 15</option>
+        </select>
+
+        <div class="grammarProgress">
+            <div class="progress"><div id="grammarProgressBar"></div></div>
+            <div id="grammarProgressText">0 / 0 câu</div>
+        </div>
+
+        <div class="grammarCard">
+            <div id="grammarLesson" class="lesson"></div>
+            <h3>🔀 Hãy ghép các từ thành câu đúng</h3>
+            <div id="wordBank" class="wordBank"></div>
+            <div class="answerLabel">Câu của bạn:</div>
+            <div id="sentenceAnswer" class="sentenceAnswer"></div>
+            <div class="grammarButtons">
+                <button id="grammarCheckBtn" type="button">✅ Kiểm tra</button>
+                <button id="grammarClearBtn" type="button">↩️ Làm lại</button>
+                <button id="grammarNextBtn" type="button">➡️ Câu tiếp theo</button>
+            </div>
+            <div id="grammarResult" class="grammarResult"></div>
+            <div class="grammarScore">
+                <div class="box"><div>✅ Đúng</div><h2 id="grammarCorrect">0</h2></div>
+                <div class="box"><div>❌ Sai</div><h2 id="grammarWrong">0</h2></div>
+                <div class="box"><div>📖 Còn lại</div><h2 id="grammarRemain">0</h2></div>
+            </div>
+        </div>
+    </section>
 
 </div>
 
