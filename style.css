@@ -446,15 +446,19 @@ button:disabled{
 .wordBank,.sentenceAnswer{
     min-height:58px;
     display:flex;
-    flex-wrap:wrap;
-    justify-content:center;
+    flex-wrap:nowrap;
+    justify-content:flex-start;
+    align-items:center;
     gap:10px;
     padding:14px;
+    overflow-x:auto;
+    overflow-y:hidden;
+    -webkit-overflow-scrolling:touch;
     border-radius:14px;
     background:#f3f4f6;
     margin-bottom:14px;
 }
-.sentenceAnswer{background:#eff6ff;border:2px dashed #93c5fd}
+.sentenceAnswer{background:#eff6ff;border:2px dashed #93c5fd;justify-content:flex-start}
 .grammarWord{
     border:0;
     border-radius:10px;
@@ -464,8 +468,13 @@ button:disabled{
     cursor:pointer;
     font-size:17px;
     color:#111827;
+    flex:0 0 auto;
+    white-space:nowrap;
+    transition:none !important;
+    transform:none !important;
+    -webkit-tap-highlight-color:transparent;
 }
-.grammarWord:hover{transform:translateY(-2px)}
+.grammarWord:hover{transform:none}
 .answerWord{background:#dbeafe}
 .answerLabel{font-weight:700;margin-bottom:7px}
 .grammarButtons{display:flex;gap:9px;flex-wrap:wrap;justify-content:center;margin:14px 0}
