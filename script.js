@@ -314,7 +314,6 @@ function closePopup(){
 // Chế độ luyện ngữ pháp
 // =====================
 let grammarData = [];
-let grammarBook = 1;
 let grammarRemain = [];
 let grammarCurrent = null;
 let grammarSelected = [];
@@ -322,15 +321,14 @@ let grammarTotal = 0;
 let grammarCorrect = 0;
 let grammarWrong = 0;
 let grammarLoaded = false;
-let grammarLoadedBook = 0;
+let grammarPart = 1;
+let grammarLoading = false;
 
 const vocabPanel = document.getElementById('vocabPanel');
 const grammarPanel = document.getElementById('grammarPanel');
 const vocabModeBtn = document.getElementById('vocabModeBtn');
 const grammarModeBtn = document.getElementById('grammarModeBtn');
 const grammarLessonSelect = document.getElementById('grammarLessonSelect');
-const grammarBook1Btn = document.getElementById('grammarBook1Btn');
-const grammarBook2Btn = document.getElementById('grammarBook2Btn');
 const wordBank = document.getElementById('wordBank');
 const sentenceAnswer = document.getElementById('sentenceAnswer');
 const grammarLesson = document.getElementById('grammarLesson');
@@ -340,6 +338,20 @@ const grammarProgressText = document.getElementById('grammarProgressText');
 const grammarCorrectText = document.getElementById('grammarCorrect');
 const grammarWrongText = document.getElementById('grammarWrong');
 const grammarRemainText = document.getElementById('grammarRemain');
+
+function loadGrammarPart(part){
+    grammarPart = part;
+    const g1=document.getElementById('grammarPart1Btn'); const g2=document.getElementById('grammarPart2Btn');
+    if(g1) g1.classList.toggle('active', part===1); if(g2) g2.classList.toggle('active', part===2);
+    grammarLoaded = false;
+    grammarResult.textContent = '';
+    const file = part === 1 ? './grammar1.json' : './grammar2.json';
+    grammarLoading = true;
+    fetch(file).then(r => { if(!r.ok) throw new Error('Không đọc được '+file); return r.json(); })
+      .then(data => { grammarData = Array.isArray(data) ? data : []; grammarLoaded = true; resetGrammarScore(); createGrammarList(); nextGrammar(); })
+      .catch(err => { console.error(err); grammarData=[]; grammarRemain=[]; grammarResult.textContent='⚠️ Không tải được dữ liệu ngữ pháp Tập '+part+'.'; grammarResult.style.color='#dc2626'; })
+      .finally(()=> grammarLoading=false);
+}
 
 function showMode(mode){
     const grammar = mode === 'grammar';
@@ -353,42 +365,7 @@ function showMode(mode){
     }
 }
 
-function loadGrammar(){
-    const file = grammarBook === 1 ? './grammar1.json' : './grammar2.json';
-    fetch(file)
-        .then(response => {
-            if(!response.ok) throw new Error('Không đọc được ' + file);
-            return response.json();
-        })
-        .then(data => {
-            grammarData = Array.isArray(data) ? data : [];
-            grammarLoaded = true;
-            grammarLoadedBook = grammarBook;
-            resetGrammarScore();
-            createGrammarList();
-            nextGrammar();
-        })
-        .catch(err => {
-            console.error(err);
-            grammarResult.textContent = '⚠️ Không tải được dữ liệu ngữ pháp Tập ' + grammarBook + '.';
-            grammarResult.style.color = '#dc2626';
-        });
-}
-
-function switchGrammarBook(book){
-    grammarBook = book;
-    grammarLoaded = false;
-    grammarLoadedBook = 0;
-    grammarBook1Btn.classList.toggle('active', book === 1);
-    grammarBook2Btn.classList.toggle('active', book === 2);
-    grammarLessonSelect.value = 'all';
-    grammarResult.textContent = '⏳ Đang tải dữ liệu Tập ' + book + '...';
-    grammarResult.style.color = '#2563eb';
-    loadGrammar();
-}
-
-grammarBook1Btn.addEventListener('click', () => switchGrammarBook(1));
-grammarBook2Btn.addEventListener('click', () => switchGrammarBook(2));
+function loadGrammar(){ loadGrammarPart(grammarPart); }
 
 grammarLessonSelect.addEventListener('change', function(){
     resetGrammarScore();
